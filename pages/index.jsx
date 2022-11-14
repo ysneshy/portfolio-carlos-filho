@@ -9,8 +9,7 @@ import {
   DiMsqlServer,
 } from "react-icons/di";
 import { FaMailchimp } from "react-icons/fa";
-import { Fade } from "react-awesome-reveal";
-import astronaut from "../public/sx.svg";
+import { Rotate } from "react-reveal";
 
 export default function HomePage() {
 
@@ -40,10 +39,8 @@ export default function HomePage() {
         />
       )
       }
-      
-      <Fade>
-        <img id="astronaut" src={astronaut} alt="" srcSet="" />
-      </Fade>
+      <div>
+      </div>
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
@@ -61,7 +58,7 @@ export default function HomePage() {
               <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
             </Link>
           </div>
-          <img src="background.svg" className={styles.illustration} alt="background" />
+          <Rotate delay={2000} duration={1000} count={5}><img src="background.svg" className={styles.illustration} alt="" /></Rotate>
         </div>
       </div>
     </>
