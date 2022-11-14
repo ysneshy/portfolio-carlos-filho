@@ -9,7 +9,10 @@ import {
   DiMsqlServer,
 } from "react-icons/di";
 import { FaMailchimp } from "react-icons/fa";
-import { Rotate } from "react-reveal";
+import { Fade, Rotate } from 'react-reveal';
+import Wobble from 'react-reveal/Wobble';
+import Swing from 'react-reveal/Swing';
+
 
 export default function HomePage() {
 
@@ -44,8 +47,12 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
+          <Wobble delay={4000} count={3}>
             <h1 className={styles.name}><FaUserAstronaut />&nbsp;Carlos Augusto Diniz Filho</h1>
+            </Wobble>
+            <Swing delay={7000} count={2}>
             <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
+            </Swing>
             <Link href="/projects">
               <button className={styles.button}><DiAndroid />Meus projetos</button>
             </Link>
@@ -54,11 +61,13 @@ export default function HomePage() {
             </Link>
             <div></div>
             <br></br>
+            <Swing delay={9700} count={2}>
             <Link href="/settings">
               <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
             </Link>
+            </Swing>
           </div>
-          <Rotate delay={2000} duration={1000} count={5}><img src="background.svg" className={styles.illustration} alt="" /></Rotate>
+          <Fade delay={1000} duration={1000} count={3}><img src="background.svg" className={styles.illustration} alt="" /></Fade>
         </div>
       </div>
     </>
