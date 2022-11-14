@@ -12,15 +12,6 @@
   width: 315px;
 }
 
-.Fade {
-  position: absolute;
- 
-  height: 420px;
-  right: 10rem;
-  top: 5rem;
-  animation: float 5s ease infinite;
-} 
-
 .illustration {
   height: 100vh;
   display: flex;
@@ -31,7 +22,7 @@
 
 .illustration {
   width: 400px;
-  animation: float 3s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
