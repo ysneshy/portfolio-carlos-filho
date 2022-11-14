@@ -43,15 +43,12 @@ export default function HomePage() {
       )
       }
       <br></br>
-      <br></br>
       <div>
       </div>
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
-          <Wobble delay={7000} count={3}>
             <h1 className={styles.name}><FaUserAstronaut />&nbsp;Carlos Augusto Diniz Filho</h1>
-            </Wobble>
             <Swing delay={10000} count={2}>
             <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
             </Swing>
