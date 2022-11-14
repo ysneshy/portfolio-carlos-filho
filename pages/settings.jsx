@@ -8,7 +8,7 @@ const SettingsPage = () => {
       <div className={styles.container}>
         <ThemeInfo
           name="Crapula"
-          icon="/crapullia.png"
+          icon="/crapullia.svg"
           publisher="Dhalsim"
           theme="github-dark"
           description="Thema Crapula para VS Code"

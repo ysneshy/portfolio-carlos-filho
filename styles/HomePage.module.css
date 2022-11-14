@@ -21,6 +21,28 @@
   animation: float 5s ease infinite;
 } 
 
+.illustration {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: round;
+}
+
+.illustration {
+  width: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
+
 .background {
   font-size: 5rem;
   font-family: 'Montserrat';

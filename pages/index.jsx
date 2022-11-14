@@ -67,7 +67,7 @@ export default function HomePage() {
             </Link>
             </Swing>
           </div>
-          <Fade delay={1000} duration={1000} count={3}><img src="background.svg" className={styles.illustration} alt="" /></Fade>
+       <img src="background.svg" className={styles.illustration} alt="" />
         </div>
       </div>
     </>
