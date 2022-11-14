@@ -24,9 +24,9 @@ const AboutPage = () => {
         <br></br>
         <img src="./formacao.svg" min-width="17px" max-width="17px" width="17px" align="left"/>
         <b>&nbsp;Formado em Engenharia da Computação pós graduado em Engenharia de Redes e Telecomunicações pela Estacio Iesam.</b>
-        <p>A minha principal ferramenta de trabalho é o React, Python e Quasar apesar de ter conhecimentos sobre PHP, C, C++ escolhi me aprofundar no front-end, especialmente no sistema do React.</p>
-        <p>No momento estou consolidando conhecimento sobre Next.js e desenvolvimento com JavaScript e Typescript.</p>
-        <h2>Algumas stacks que tenho conhecimento.</h2>
+        <p><img src="./react_icon.svg" min-width="17px" max-width="17px" width="17px" align="left"/>&nbsp;A minha principal ferramenta de trabalho é o React, Python e Quasar apesar de ter conhecimentos sobre PHP, C, C++ escolhi me aprofundar no front-end, especialmente no sistema do React.</p>
+        <p><img src="./next.svg" min-width="17px" max-width="17px" width="17px" align="left"/>&nbsp;No momento estou consolidando conhecimento sobre Next.js e desenvolvimento com JavaScript e Typescript.</p>
+        <h2><img src="./robots.svg" min-width="17px" max-width="17px" width="17px" align="left"/>&nbsp;Algumas stacks que tenho conhecimento.</h2>
         <section className={styles.containerSkills}>
           <div className={styles.skill}>
 

@@ -10,8 +10,8 @@ import {
 } from "react-icons/di";
 import { FaMailchimp } from "react-icons/fa";
 import { Fade, Rotate } from 'react-reveal';
-import Wobble from 'react-reveal/Wobble';
 import Swing from 'react-reveal/Swing';
+import ButtonCV from '../components/ButtonCV';
 
 
 export default function HomePage() {
@@ -64,13 +64,14 @@ export default function HomePage() {
             </Link>
             <div></div>
             <br></br>
-           
             <Link href="/settings">
             <Rotate delay={4400} count={2}>
               <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
               </Rotate>
             </Link>
-            
+            <ButtonCV />
+          </div>
+          <div>
           </div>
        <img src="background.svg" className={styles.illustration} alt="" />
         </div>
