@@ -142,8 +142,8 @@
 }
 
 .illustration {
-  height: 480px;
-  width: 440px;
+  height: 500px;
+  width: 460px;
 }
 
 /* 4K Screens */
@@ -283,30 +283,3 @@
   }
 
 }
-
-@media screen and (max-width: 320px) {
-
-  .foreground {
-    margin: 0;
-  }
-
-  .name {
-    font-size: 2rem;
-  }
-
-  .bio {
-    font-size: 1.00rem;
-    margin-bottom: 2rem;
-  }
-
-  .button {
-    font-size: 1rem;
-    margin-top: 1rem;
-  }
-
-  .outlined {
-    font-size: 1rem;
-
-  }
-}
-
