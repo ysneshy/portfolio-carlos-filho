@@ -28,7 +28,7 @@
 }
 
 .illustration {
-  width: 250px;
+  width: 220px;
   animation: float 5s ease-in-out infinite;
 }
 
@@ -142,8 +142,8 @@
 }
 
 .illustration {
-  height: 500px;
-  width: 460px;
+  height: 480px;
+  width: 440px;
 }
 
 /* 4K Screens */
