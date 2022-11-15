@@ -16,33 +16,14 @@
   margin-bottom: 2rem;
   font-size: 1.5rem;
 }
-
 .illustration {
-  position: absolute;
-   
-  height: 420px;
-  right: 45rem;
-  top: 5rem;
-}
-  
-
-
-.illustration {
-  width: 300px;
-  animation: float 5s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0)
-}
-50% {
-    transform: translateY(-50px)
-
-}
-100% {
-    transform: translateY(0)
-  }
+  display: flex;
+  gap: 2rem;
+  height: 01vh;
+  width: 690px;
+  bottom: 20;
+  align-items: center;
+  justify-content: center;
 }
 
 .flex {
@@ -100,18 +81,23 @@
   .container {
     display: block;
   }
+  
   .container > div:first-child {
     border-right: none;
     margin-bottom: 2.5rem;
+  
   }
   .illustration {
-    position: absolute;
-    bottom: -50px;
-    right: 0;
-    height: 700px;
-    width: 600px;
-  }
+    display: flex;
+    gap: 2rem;
+    height: 01vh;
+    width: 690px;
+    bottom: 20;
+    align-items: center;
+    justify-content: center;
 }
+}
+
 
 @media screen and (max-width: 600px) {
   .flex {
@@ -120,14 +106,15 @@
   .form input {
     font-size: 0.85rem;
   }
-  
+
   .illustration {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 80vw;
-    height: 40vh;
-    z-index: 1;
-  }
+    display: flex;
+    gap: 2rem;
+    height: 04vh;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
 }
 
