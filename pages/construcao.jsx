@@ -26,6 +26,7 @@ export default function HomePage() {
         }}
       />
       <br></br>
+      <br></br>
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
@@ -42,7 +43,7 @@ export default function HomePage() {
           </div>
           <div className={styles.illustration}>
         <Zoom delay={1000} count={3}>
-        <img src="astrocons.svg"  width="380px" alt="software" />
+        <img src="astrocons.svg"  width="360px" alt="software" />
         </Zoom>
         </div>
         </div>
