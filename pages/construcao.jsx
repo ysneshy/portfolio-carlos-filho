@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import styles from '../styles/HomePage.module.css';
+import styles from '../styles/ConstPage.module.css';
+import { Fade, Rotate, Zoom, Flip } from 'react-reveal';
 import Typewriter from 'typewriter-effect';
 import {
   FaMailchimp,
@@ -28,8 +29,8 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}><FaLaptopCode />&nbsp;Pagina em construcao</h1>
-            <h6 className={styles.bio}><FaHiking />&nbsp;area em construcao</h6>
+            <h1 className={styles.name}><FaLaptopCode />&nbsp;Pagina em construção</h1>
+            <h6 className={styles.bio}><FaHiking />&nbsp;area em construção</h6>
             <Link href="/">
               <button className={styles.button}><FaUserAstronaut />&nbsp;Volta Para Home?</button>
             </Link>
@@ -39,7 +40,11 @@ export default function HomePage() {
               <button className={styles.outlined}><FaMailchimp />&nbsp;Escolhe thema?</button>
             </Link>
           </div>
-          <img src="https://imgur.com/YfTnTcu.png" className={styles.foreground} alt="background" />
+          <div className={styles.illustration}>
+        <Zoom delay={1000} count={3}>
+        <img src="astrocons.svg"  width="380px" alt="software" />
+        </Zoom>
+        </div>
         </div>
       </div>
     </>
