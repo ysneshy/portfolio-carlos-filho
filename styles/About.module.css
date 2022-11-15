@@ -17,6 +17,34 @@
   flex-direction: column;
 }
 
+.illustration {
+  height: 20vh;
+  display: flex;
+  gap: 2rem;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.illustration {
+  width: 200px;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0)
+}
+50% {
+    transform: translateY(-50px)
+
+}
+100% {
+    transform: translateY(0)
+  }
+}
+
 .skill h4 {
   font-size: 1.5rem;
   text-decoration: underline;

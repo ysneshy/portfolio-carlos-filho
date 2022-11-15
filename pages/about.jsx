@@ -75,7 +75,7 @@ const AboutPage = () => {
         </section>
         <div>
         <div className={styles.illustration}>
-            <img src="astrocontact.svg" width="170px"  alt="software" />
+            <img src="astrosobre.svg" width="170px"  alt="software" />
         </div>
         </div>
         <ButtonCV />
