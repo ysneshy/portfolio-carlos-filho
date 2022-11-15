@@ -18,10 +18,9 @@
 }
 .illustration {
   display: flex;
-  gap: 2rem;
   height: 01vh;
-  width: 690px;
-  bottom: 20;
+  width: 750px;
+  bottom: 02;
   align-items: center;
   justify-content: center;
 }
@@ -91,7 +90,7 @@
     display: flex;
     gap: 2rem;
     height: 01vh;
-    width: 690px;
+    width: 660px;
     bottom: 20;
     align-items: center;
     justify-content: center;
@@ -110,11 +109,13 @@
   .illustration {
     display: flex;
     gap: 2rem;
-    height: 04vh;
-    width: 600px;
+    height: 01vh;
+    width: 500px;
     align-items: center;
     justify-content: center;
 }
 
 }
+
+
 
