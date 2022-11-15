@@ -19,7 +19,6 @@
 .illustration {
   display: flex;
   gap: 2rem;
-  height: 01vh;
   width: 620px;
   bottom: 20;
   align-items: center;
