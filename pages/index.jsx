@@ -4,15 +4,13 @@ import styles from '../styles/HomePage.module.css';
 import Loading from '../components/Loading';
 import Typewriter from 'typewriter-effect';
 import { FaUserAstronaut, } from "react-icons/fa";
+import { FaMailchimp } from "react-icons/fa";
+import { Fade, Rotate } from 'react-reveal';
+import Swing from 'react-reveal/Swing';
 import {
   DiAndroid,
   DiMsqlServer,
 } from "react-icons/di";
-import { FaMailchimp } from "react-icons/fa";
-import { Fade, Rotate } from 'react-reveal';
-import Swing from 'react-reveal/Swing';
-import ButtonCV from '../components/ButtonCV';
-
 
 export default function HomePage() {
 
