@@ -9,14 +9,14 @@
 }
 
 .carousel {
-  width: 312px;
+  width: 305px;
   
   transition: width 2s, height 4s;
 }
 
 .carousel:hover {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 .illustration {
