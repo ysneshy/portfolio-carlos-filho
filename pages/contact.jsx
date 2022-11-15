@@ -12,8 +12,8 @@ const ContactPage = () => {
       <div className={styles.container}>
         <div>
           <h3 className={styles.heading}><FaUserAstronaut />&nbsp;Encontre-me nas redes sociais|</h3>
-          <div className={styles.Image}>
-            <img src="astrocontact.svg" width="300px"  alt="software" />
+          <div className={styles.illustration}>
+            <img src="astrocontact.svg" width="220px"  alt="software" />
           </div>
           <ContactCode />
           <ButtonCV />

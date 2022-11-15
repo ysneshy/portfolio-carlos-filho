@@ -17,18 +17,18 @@
   font-size: 1.5rem;
 }
 
-.Image {
+.illustration {
   position: absolute;
-  top: 20;
-  bottom: 0;
-  left: 220;
-  right: 122;
-  text-algn: right;
-  
+   
+  height: 420px;
+  right: 45rem;
+  top: 5rem;
 }
+  
 
-.Image {
-  width: 400px;
+
+.illustration {
+  width: 300px;
   animation: float 5s ease-in-out infinite;
 }
 
@@ -104,7 +104,7 @@
     border-right: none;
     margin-bottom: 2.5rem;
   }
-  .Image {
+  .illustration {
     position: absolute;
     bottom: -50px;
     right: 0;
@@ -121,7 +121,7 @@
     font-size: 0.85rem;
   }
   
-  .Image {
+  .illustration {
     position: absolute;
     bottom: 0;
     left: 0;
