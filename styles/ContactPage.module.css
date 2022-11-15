@@ -143,11 +143,14 @@
   }
 
   .illustration {
-    position: absolute;
-    bottom: -50px;
-    right: 0;
-    height: 700px;
-    width: 600px;
+    height: 17vh;
+  display: flex;
+  gap: 2rem;
+  width: 320px;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  background-repeat: round;
   }
 }
 
@@ -167,10 +170,14 @@
   }
 
   .illustration {
-    height: 550px;
-    width: 420px;
-    bottom: -50px;
-  }
+    height: 17vh;
+  display: flex;
+  gap: 2rem;
+  width: 320px;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  background-repeat: round;
 }
 
 @media screen and (orientation: landscape) and (max-width: 1050px) {
@@ -209,13 +216,12 @@
   }
 
   .illustration {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 80vw;
-    height: 40vh;
-    z-index: 1;
+    height: 17vh;
+  display: flex;
+  gap: 2rem;
+  width: 320px;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  background-repeat: round;
   }
-
-}
-
