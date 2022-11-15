@@ -48,31 +48,27 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}><FaUserAstronaut />&nbsp;Carlos Augusto Diniz Filho</h1>
             <Swing delay={10000} count={2}>
-            <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
+              <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
             </Swing>
-            <Link href="/projects">
-            <Rotate delay={1000} count={2}>
-              <button className={styles.button}><DiAndroid />Meus projetos</button>
-              </Rotate>
-            </Link>
-            <Link href="/contact">
-            <Rotate delay={2800} count={2}>
-              <button className={styles.outlined}><DiMsqlServer />Contato</button>
-              </Rotate>
-            </Link>
-            <div></div>
-            <br></br>
+              <Link href="/projects">
+            <button className={styles.button}><DiAndroid />Meus projetos</button>
+          </Link>
+          <Link href="/contact">
+            <button className={styles.outlined}><DiMsqlServer />Contato</button>
+          </Link>
+          <div></div>
+          <br></br>
+          <Fade delay={2400} count={5}>
             <Link href="/settings">
-            <Rotate delay={4400} count={2}>
               <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
-              </Rotate>
             </Link>
-          </div>
-          <div>
-          </div>
-       <img src="background.svg" className={styles.illustration} alt="" />
+          </Fade>
         </div>
+        <div>
+        </div>
+        <img src="background.svg" className={styles.illustration} alt="" />
       </div>
+    </div>
     </>
   );
 }
