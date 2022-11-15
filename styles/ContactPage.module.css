@@ -19,8 +19,8 @@
 .illustration {
   display: flex;
   height: 01vh;
-  width: 750px;
-  bottom: 02;
+  width: 160px;
+  bottom: 00;
   align-items: center;
   justify-content: center;
 }
@@ -86,15 +86,6 @@
     margin-bottom: 2.5rem;
   
   }
-  .illustration {
-    display: flex;
-    gap: 2rem;
-    height: 01vh;
-    width: 600px;
-    bottom: 20;
-    align-items: center;
-    justify-content: center;
-}
 }
 
 
