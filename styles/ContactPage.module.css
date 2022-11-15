@@ -23,13 +23,12 @@
   bottom: 0;
   left: 220;
   right: 122;
-  
-
+  text-algn: right;
   
 }
 
 .Image {
- 
+  width: 400px;
   animation: float 5s ease-in-out infinite;
 }
 
@@ -105,6 +104,13 @@
     border-right: none;
     margin-bottom: 2.5rem;
   }
+  .Image {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    height: 700px;
+    width: 600px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -113,6 +119,15 @@
   }
   .form input {
     font-size: 0.85rem;
+  }
+  
+  .Image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80vw;
+    height: 40vh;
+    z-index: 1;
   }
 }
 
