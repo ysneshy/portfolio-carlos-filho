@@ -105,14 +105,4 @@
   .form input {
     font-size: 0.85rem;
   }
-
-  .illustration {
-    display: flex;
-    gap: 2rem;
-    height: 01vh;
-    width: 400px;
-    align-items: center;
-    justify-content: center;
-}
-
 }
