@@ -77,8 +77,8 @@ const AboutPage = () => {
         <div className={styles.illustration}>
             <img src="astrosobre.svg" width="170px"  alt="software" />
         </div>
-        </div>
         <ButtonCV />
+        </div>
       </article>
       )}
     </>
