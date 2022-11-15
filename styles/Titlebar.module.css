@@ -45,16 +45,16 @@
 }
 
 .minimize {
-  background: #f1fa8c;
+  background: #2A1B3B;
   margin-left: auto;
 }
 
 .maximize {
-  background: #50fa7b;
+  background: #371B45;
 }
 
 .close {
-  background: #ff5555;
+  background: #9B8DA2;
 }
 
 @media screen and (max-width: 900px) {

@@ -25,11 +25,9 @@ export default function HomePage() {
 
   return (
     <>
-
       {!loading ? (
         <Loading />
       ) : (
-
         <Typewriter
           options={{
             strings: ['Linguagem: Next, react, Sass.', 'Portfolio em Atualização.'],
@@ -46,33 +44,35 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
+          <Flip delay={5000} count={3}>
             <h1 className={styles.name}><FaUserAstronaut />&nbsp;Carlos Augusto Diniz Filho</h1>
-            <Swing delay={10000} count={2}>
+            </Flip>
+            <Flip delay={9000} count={2}>
               <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
-            </Swing>
-              <Link href="/projects">
-            <button className={styles.button}><DiAndroid />Meus projetos</button>
-          </Link>
-          <Link href="/contact">
-            <button className={styles.outlined}><DiMsqlServer />Contato</button>
-          </Link>
-          <div></div>
-          <br></br>
-          <Fade delay={2400} count={5}>
-            <Link href="/settings">
-              <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
+            </Flip>
+            <Link href="/projects">
+              <button className={styles.button}><DiAndroid />Meus projetos</button>
             </Link>
-          </Fade>
-        </div>
-        <div>
-        </div>
-        <div className={styles.illustration}>
-        <Flip delay={1000} count={3}>
-        <img src="background.svg"  width="360px" alt="software" />
-        </Flip>
+            <Link href="/contact">
+              <button className={styles.outlined}><DiMsqlServer />Contato</button>
+            </Link>
+            <div></div>
+            <br></br>
+            <Fade delay={2400} count={5}>
+              <Link href="/settings">
+                <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
+              </Link>
+            </Fade>
+          </div>
+          <div>
+          </div>
+          <div className={styles.illustration}>
+            <Flip delay={1000} count={3}>
+              <img src="background.svg" width="360px" alt="software" />
+            </Flip>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 }
