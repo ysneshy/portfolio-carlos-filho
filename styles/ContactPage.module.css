@@ -24,12 +24,11 @@
   bottom: 0;
   align-items: center;
   justify-content: center;
-  background-repeat: round;
 
 }
 
 .illustration {
-  width: 400px;
+  width: 200px;
   animation: float 5s ease-in-out infinite;
 }
 
