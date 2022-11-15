@@ -18,9 +18,10 @@
 }
 .illustration {
   display: flex;
+  gap: 2rem;
   height: 01vh;
-  width: 160px;
-  bottom: 00;
+  width: 620px;
+  bottom: 20;
   align-items: center;
   justify-content: center;
 }
@@ -80,14 +81,12 @@
   .container {
     display: block;
   }
-  
   .container > div:first-child {
     border-right: none;
     margin-bottom: 2.5rem;
   
   }
 }
-
 
 @media screen and (max-width: 600px) {
   .flex {
@@ -96,4 +95,6 @@
   .form input {
     font-size: 0.85rem;
   }
+
 }
+
