@@ -116,6 +116,24 @@
 }
 
 }
+@media screen and (max-width: 405px) {
+  .flex {
+    display: block;
+  }
+  .form input {
+    font-size: 0.65rem;
+  }
+
+  .illustration {
+    display: flex;
+    gap: 2rem;
+    height: 01vh;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+}
 
 
 
