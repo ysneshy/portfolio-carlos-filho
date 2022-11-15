@@ -5,7 +5,7 @@ import Loading from '../components/Loading';
 import Typewriter from 'typewriter-effect';
 import { FaUserAstronaut, } from "react-icons/fa";
 import { FaMailchimp } from "react-icons/fa";
-import { Fade, Rotate } from 'react-reveal';
+import { Fade, Rotate, Zoom, Flip } from 'react-reveal';
 import Swing from 'react-reveal/Swing';
 import {
   DiAndroid,
@@ -66,7 +66,11 @@ export default function HomePage() {
         </div>
         <div>
         </div>
-        <img src="background.svg" className={styles.illustration} alt="" />
+        <div className={styles.illustration}>
+        <Flip delay={1000} count={3}>
+        <img src="background.svg"  width="450px" alt="software" />
+        </Flip>
+        </div>
       </div>
     </div>
     </>
