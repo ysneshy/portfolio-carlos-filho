@@ -90,7 +90,7 @@
     display: flex;
     gap: 2rem;
     height: 01vh;
-    width: 660px;
+    width: 600px;
     bottom: 20;
     align-items: center;
     justify-content: center;
@@ -110,30 +110,9 @@
     display: flex;
     gap: 2rem;
     height: 01vh;
-    width: 500px;
-    align-items: center;
-    justify-content: center;
-}
-
-}
-@media screen and (max-width: 405px) {
-  .flex {
-    display: block;
-  }
-  .form input {
-    font-size: 0.65rem;
-  }
-
-  .illustration {
-    display: flex;
-    gap: 2rem;
-    height: 01vh;
     width: 400px;
     align-items: center;
     justify-content: center;
 }
 
 }
-
-
-
