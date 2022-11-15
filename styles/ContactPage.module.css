@@ -99,7 +99,7 @@
 
 @media screen and (max-width: 1200px) {
   .container {
-    display: flex;
+    display: block;
   }
   .container > div:first-child {
     border-right: none;
@@ -110,120 +110,10 @@
 
 @media screen and (max-width: 600px) {
   .flex {
-    display: flex;
+    display: block;
   }
   .form input {
     font-size: 0.85rem;
   }
 
-}
-@media screen and (max-width: 1100px) {
-  .background {
-    display: flex;
-    
-  }
-
-  .container {
-    display: flex;
-  }
-
-  .foreground {
-    margin: 4rem 0;
-    display: flex;
-    text-align: center;
-  }
-
-  .name {
-    font-size: 4rem;
-  }
-
-  .bio {
-    font-size: 1.75rem;
-    margin: 0.75rem auto 3rem;
-  }
-
-  .illustration {
-    height: 17vh;
-  display: flex;
-  gap: 2rem;
-  width: 320px;
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
-  background-repeat: round;
-  }
-}
-
-/* iPad */
-@media screen and (max-width: 900px) {
-  .foreground {
-    margin: 2rem 0;
-  }
-
-  .name {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .bio {
-    font-size: 1.5rem;
-  }
-
-  .illustration {
-    height: 17vh;
-  display: flex;
-  gap: 2rem;
-  width: 320px;
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
-  background-repeat: round;
-}
-
-@media screen and (orientation: landscape) and (max-width: 1050px) {
-  .container {
-    display: flex;
-  }
-
-  .illustration {
-    display: none;
-  }
-}
-
-/* Phone */
-@media screen and (max-width: 600px) {
-
-  .foreground {
-    margin: 0;
-  }
-
-  .name {
-    font-size: 2rem;
-  }
-
-  .bio {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-  }
-
-  .button {
-    font-size: 1rem;
-    margin-top: 1rem;
-  }
-
-  .outlined {
-    font-size: 1rem;
-  }
-
-  .illustration {
-  height: 17vh;
-  display: flex;
-  gap: 2rem;
-  width: 320px;
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
-  background-repeat: round;
-
-  }
 }
