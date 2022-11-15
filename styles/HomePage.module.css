@@ -10,6 +10,13 @@
 
 .carousel {
   width: 315px;
+  
+  transition: width 2s, height 4s;
+}
+
+.carousel:hover {
+  width: 400px;
+  height: 400px;
 }
 
 .illustration {

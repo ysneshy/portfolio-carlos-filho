@@ -29,10 +29,10 @@ const HomePage = () => {
               <img src="/certificate.svg" alt="" />
             </Carousel>
           </div>
+          <br></br>
           <ButtonCV />
         </div>
       </div>
-     
     </>
   );
 };
