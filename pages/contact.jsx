@@ -3,6 +3,7 @@ import ButtonCV from '../components/ButtonCV';
 import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
 import { FaUserAstronaut,} from "react-icons/fa";
+import { Fade, Rotate } from 'react-reveal';
 
 const ContactPage = () => {
 
@@ -11,9 +12,11 @@ const ContactPage = () => {
 
       <div className={styles.container}>
         <div>
-          <h3 className={styles.heading}><FaUserAstronaut />&nbsp;Encontre-me nas Redes Sociais </h3>
+          <h3 className={styles.heading}><FaUserAstronaut />&nbsp;Encontre-me nas Redes Sociais.</h3>
           <div className={styles.illustration}>
+          <Rotate Rotate delay={1000} count={5}>
             <img src="astrocontact.svg" width="200px"  alt="software" />
+            </Rotate>
           </div>
           <ContactCode />
           <ButtonCV />
