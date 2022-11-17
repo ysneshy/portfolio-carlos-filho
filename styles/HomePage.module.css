@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  display: flex;
   justify-content: center;
   height: 75vh;
   flex-direction: column;
   position: relative;
+  min-width: 320px;
   
 }
 
