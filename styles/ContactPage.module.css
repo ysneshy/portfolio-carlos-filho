@@ -20,7 +20,6 @@
   height: 17vh;
   display: flex;
   gap: 2rem;
-  width: 320px;
   bottom: 0;
   align-items: center;
   justify-content: center;
@@ -28,7 +27,7 @@
 }
 
 .illustration {
-  width: 300px;
+  width: 700px;
   animation: float 6s ease-in-out infinite;
 }
 
