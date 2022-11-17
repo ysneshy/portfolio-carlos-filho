@@ -19,7 +19,7 @@
   width: 350px;
  
 }
-.carousel: :active {
+.carousel:active {
   width: 305px;
   
 }
