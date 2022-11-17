@@ -11,13 +11,12 @@
 
 .carousel {
   width: 305px;
-  
+  cursor: pointer;
   transition: width 2s, height 4s;
 }
 
 .carousel:hover {
   width: 350px;
- 
 }
 .carousel:active {
   width: 305px;
