@@ -38,3 +38,9 @@
     padding: 2rem 1rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .content {
+    padding: 2rem 1rem;
+  }
+}
