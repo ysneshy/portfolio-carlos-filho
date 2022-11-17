@@ -18,7 +18,7 @@
 }
 
 .illustration {
-  width: 320px;
+  width: 318px;
   animation: float 5s ease-in-out infinite;
 }
 
@@ -297,6 +297,10 @@
   .outlined {
     font-size: 1rem;
 
+  }
+
+  .illustration {
+    display: none;
   }
 
   .illustration {
