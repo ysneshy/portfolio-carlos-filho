@@ -119,7 +119,7 @@
 }
 
 .illustration {
-  
+  width: 400px;
   animation: float 5s ease-in-out infinite;
 }
 

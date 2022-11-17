@@ -13,13 +13,13 @@
 }
 
 .container h1 {
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+  margin-bottom: 2em;
+  font-size: 1.5em;
 }
 .illustration {
   height: 17vh;
   display: flex;
-  gap: 2rem;
+  gap: 2em;
   bottom: 0;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,7 @@
 }
 
 .illustration {
-  width: 700px;
+  width: 200px;
   animation: float 6s ease-in-out infinite;
 }
 
@@ -46,27 +46,27 @@
 
 .flex {
   display: flex;
-  gap: 1rem;
+  gap: 1em;
 }
 
 .form label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 0.8rem;
+  font-size: 0.8em;
   border-radius: 40px;
 }
 
 .form input,
 .form textarea {
   font-family: 'JetBrains Mono';
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
   background: var(--article-bg);
   color: var(--text-color);
   border: none;
-  font-size: 1rem;
-  padding: 0.75rem;
+  font-size: 1em;
+  padding: 0.75em;
   width: 100%;
   resize: none;
   border-radius: 40px;
@@ -83,8 +83,8 @@
   color: var(--main-bg);
   border: none;
   cursor: pointer;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
+  padding: 0.5em 1em;
+  font-size: 0.9em;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 40px;
@@ -92,7 +92,7 @@
 }
 
 .heading {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -101,7 +101,7 @@
   }
   .container > div:first-child {
     border-right: none;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5em;
   
   }
 }
@@ -111,7 +111,7 @@
     display: block;
   }
   .form input {
-    font-size: 0.85rem;
+    font-size: 0.85em;
   }
 
 }
