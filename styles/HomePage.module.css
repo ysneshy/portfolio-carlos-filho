@@ -300,10 +300,11 @@
   }
 
   .illustration {
-    display: none;
+    display: block;
   }
 
   .illustration {
+    display: block;
     position: absolute;
     bottom: 0;
     left: 0;
