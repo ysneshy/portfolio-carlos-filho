@@ -13,16 +13,20 @@
   width: 305px;
   cursor: pointer;
   transition: width 2s, height 4s;
+
 }
 
 .carousel:hover {
-  width: 350px;
   
+width: 350px;
+
+
 }
 
-.img:hover {
-
-  width: 305px;
+.img {
+  /*TENTANDO MANUPULAR IMAGENS DENTRO CAROUSEL*/
+  border: 5px solid #4ae30c;
+  border-radius: 20px 0px 20px 0px;
 
 }
 

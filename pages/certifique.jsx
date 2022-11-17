@@ -20,7 +20,7 @@ const HomePage = () => {
               infiniteLoop={true}
               interval={3000}
             >
-              <img src="https://i.imgur.com/J4CZziC.png" alt="" />
+              <img src="https://i.imgur.com/J4CZziC.png" alt=""  />
               <img src="https://i.imgur.com/jv39UkU.png" alt="" />
               <img src="https://i.imgur.com/AH7FJea.png" alt="" />
               <img src="https://i.imgur.com/qXopCJC.png" alt="" />
