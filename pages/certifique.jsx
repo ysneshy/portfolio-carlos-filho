@@ -16,7 +16,6 @@ const HomePage = () => {
           <br></br>
           <div>
             <Carousel className={styles.carousel}
-              autoFocus={true}
               /*onClickItem={true}*/
               autoPlay={true}
               infiniteLoop={true}
