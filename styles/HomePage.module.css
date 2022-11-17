@@ -17,7 +17,11 @@
 
 .carousel:hover {
   width: 350px;
-  height: 350px;
+ 
+}
+.carousel: :active {
+  width: 305px;
+  
 }
 
 .illustration {
