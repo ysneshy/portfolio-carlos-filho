@@ -33,9 +33,9 @@
   border-left: 1px solid #1e1f29;
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .content {
     padding: 2em 1em;
   }
 }
+
