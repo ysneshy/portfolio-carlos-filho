@@ -6,7 +6,6 @@
   height: 75vh;
   flex-direction: column;
   position: relative;
-  max-width: 350px;
   
 }
 
@@ -310,5 +309,15 @@
     font-size: 1rem;
 
   }
+
+  .illustration {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40vw;
+    height: 20vh;
+    z-index: 1;
+  }
+
 }
 
