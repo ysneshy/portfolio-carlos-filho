@@ -3,24 +3,26 @@ import ButtonCV from '../components/ButtonCV';
 import styles from '../styles/CertificadoPage.module.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import {TbCertificate} from "react-icons/tb";
+import { TbCertificate } from "react-icons/tb";
 
 const HomePage = () => {
 
   return (
     <>
-      
+
       <div className={styles.container}>
         <div>
           <h2 className={styles.heading}><TbCertificate />&nbsp;Area de certificados</h2>
           <br></br>
           <div>
             <Carousel className={styles.carousel}
+              autoFocus={true}
+              /*onClickItem={true}*/
               autoPlay={true}
               infiniteLoop={true}
               interval={3000}
             >
-              <img src="https://i.imgur.com/J4CZziC.png" alt=""  />
+              <img src="https://i.imgur.com/J4CZziC.png" alt="" />
               <img src="https://i.imgur.com/jv39UkU.png" alt="" />
               <img src="https://i.imgur.com/AH7FJea.png" alt="" />
               <img src="https://i.imgur.com/qXopCJC.png" alt="" />
