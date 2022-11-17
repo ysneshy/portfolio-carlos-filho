@@ -18,7 +18,7 @@
 .carousel:hover {
   width: 350px;
 }
-.carousel.outlined:hover {
+.carousel:hover {
   width: 305px;
   
 }
