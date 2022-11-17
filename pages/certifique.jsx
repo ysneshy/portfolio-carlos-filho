@@ -1,6 +1,6 @@
 import React from 'react';
 import ButtonCV from '../components/ButtonCV';
-import styles from '../styles/HomePage.module.css';
+import styles from '../styles/CertificadoPage.module.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import {TbCertificate} from "react-icons/tb";
@@ -30,7 +30,8 @@ const HomePage = () => {
             </Carousel>
           </div>
           <br></br>
-          <ButtonCV />
+          <br></br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ButtonCV />
         </div>
       </div>
     </>
