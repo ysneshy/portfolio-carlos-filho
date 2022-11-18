@@ -132,6 +132,7 @@
 
 .illustration {
 
+width: 280px;
   animation: float 5s ease-in-out infinite;
 }
 

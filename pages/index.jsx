@@ -54,17 +54,18 @@ export default function HomePage() {
             </Link>
             <div></div>
             <br></br>
-            <Fade delay={2400} count={3}>
-              <Link href="/settings">
+            <div>
+            <Link href="/settings">
                 <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
               </Link>
-            </Fade>
+            </div>
+             
           </div>
           <div>
           </div>
           <div className={styles.illustration} >
-            <Flip delay={1000} count={3}>
-              <img src="background.svg" width="320px" alt="software" />
+            <Flip delay={1000} count={2}>
+              <img src="background.svg"  width="300px" alt="software" />
             </Flip>
           </div>
         </div>
