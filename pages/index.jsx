@@ -52,14 +52,9 @@ export default function HomePage() {
             <Link href="/contact">
               <button className={styles.outlined}><DiMsqlServer />Contato</button>
             </Link>
-            <div></div>
-            <br></br>
-            <div>
-            <Link href="/settings">
+              <Link href="/settings">
                 <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
               </Link>
-            </div>
-             
           </div>
           <div>
           </div>
