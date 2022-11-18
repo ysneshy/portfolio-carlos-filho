@@ -20,6 +20,7 @@
     "react-icons": "^4.6.0",
     "react-responsive-carousel": "^3.2.23",
     "react-reveal": "^1.2.2",
+    "react-simple-typewriter": "^4.0.5",
     "sass": "^1.55.0",
     "styled-components": "^5.3.6",
     "typewriter-effect": "^2.19.0"

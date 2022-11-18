@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/HomePage.module.css';
 import Loading from '../components/Loading';
-import { Typewriter } from 'react-simple-typewriter'
+import Typewriter from 'typewriter-effect';
 import { FaUserAstronaut, } from "react-icons/fa";
 import { FaMailchimp } from "react-icons/fa";
 import { Fade, Rotate, Zoom, Swing, Flip } from 'react-reveal';

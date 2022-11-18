@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/ConstPage.module.css';
 import { Fade, Rotate, Zoom, Flip } from 'react-reveal';
+import Typewriter from 'typewriter-effect';
 import {
   FaMailchimp,
   FaUserAstronaut,
@@ -15,6 +16,15 @@ export default function HomePage() {
 
   return (
     <>
+
+      <Typewriter
+        options={{
+          strings: ['Linguagem: Next, react, JavaScript, Css.', 'Portfolio em Atualização.'],
+          autoStart: true,
+          loop: true,
+          skipAddStyles: true,
+        }}
+      />
       <br></br>
       <br></br>
       <div className={styles.container}>
@@ -33,7 +43,7 @@ export default function HomePage() {
           </div>
           <div className={styles.illustration}>
         <Zoom delay={1000} count={3}>
-        <img src="astrocons.svg"  width="360px" alt="software" />
+        <img src="astrocons.svg"  width="300px" alt="software" />
         </Zoom>
         </div>
         </div>
