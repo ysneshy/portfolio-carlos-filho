@@ -94,13 +94,6 @@
   transition: all 0.2s ease-out;
 }
 
-.background {
-  background: rgb(61, 255, 145);
-  box-shadow: 0 0 30px 5px rgba(0, 236, 59, 0.815);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
 .outlined {
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
