@@ -62,6 +62,9 @@ export default function HomePage() {
           </div>
           <div></div>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
           <div className={styles.illustration} >
             <Flip delay={1000} count={2}>
               <img src="background.svg"  width="260px" alt="software" />
