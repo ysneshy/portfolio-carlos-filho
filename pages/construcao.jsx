@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/ConstPage.module.css';
 import { Fade, Rotate, Zoom, Flip } from 'react-reveal';
-import Typewriter from 'typewriter-effect';
 import {
   FaMailchimp,
   FaUserAstronaut,
@@ -16,15 +15,6 @@ export default function HomePage() {
 
   return (
     <>
-
-      <Typewriter
-        options={{
-          strings: ['Linguagem: Next, react, JavaScript, Sass, Css.', 'Portfolio em constante Atualização.'],
-          autoStart: true,
-          loop: true,
-          skipAddStyles: true,
-        }}
-      />
       <br></br>
       <br></br>
       <div className={styles.container}>
