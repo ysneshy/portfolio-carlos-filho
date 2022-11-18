@@ -40,7 +40,7 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <Flip delay={5000} count={3}>
+            <Flip delay={5000} count={2}>
               <h1 className={styles.name}><FaUserAstronaut />&nbsp;Carlos Augusto Diniz Filho</h1>
             </Flip>
             <Flip delay={9000} count={2}>
@@ -54,7 +54,7 @@ export default function HomePage() {
             </Link>
             <div></div>
             <br></br>
-            <Fade delay={2400} count={5}>
+            <Fade delay={2400} count={3}>
               <Link href="/settings">
                 <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
               </Link>
@@ -64,7 +64,7 @@ export default function HomePage() {
           </div>
           <div className={styles.illustration} >
             <Flip delay={1000} count={3}>
-              <img src="background.svg" width="380px" alt="software" />
+              <img src="background.svg" width="320px" alt="software" />
             </Flip>
           </div>
         </div>
