@@ -17,21 +17,31 @@
 }
 
 .carousel:hover {
-  
+
 width: 440px;
 
 }
 
-.illustration {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-repeat: round;
+.carousel {
+
+  animation: float 5s ease-in-out infinite;
 }
 
-.illustration {
-  width: 320px;
+@keyframes float {
+  0% {
+    transform: translateY(0)
+}
+50% {
+    transform: translateY(-50px)
+
+}
+100% {
+    transform: translateY(0)
+  }
+}
+
+.container {
+
   animation: float 5s ease-in-out infinite;
 }
 
@@ -142,11 +152,6 @@ width: 440px;
 .outlined:hover {
   box-shadow: 5px 5px 10px RGB(191, 64, 64);
   border-radius: 40px;
-}
-
-.illustration {
-  height: 480px;
-  width: 440px;
 }
 
 /* 4K Screens */
