@@ -274,8 +274,8 @@ width: 280px;
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 85vw;
-    height: 50vh;
+    width: 65vw;
+    height: 30vh;
     z-index: 1;
   }
 }
