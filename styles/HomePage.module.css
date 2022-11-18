@@ -106,11 +106,15 @@
 
 .button:hover,
 .outlined:hover {
-  background: rgb(219, 255, 61);
-    box-shadow: 0 0 30px 5px rgba(173, 236, 0, 0.815);
+  
+  color: rgb(255, 202, 40);
+  border: 2px solid rgb(191, 64, 64);
+  background: rgb(255, 87, 34);
+    box-shadow: 0 0 30px 5px rgb(191, 64, 64);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out
+    
 }
 
 .illustration {
