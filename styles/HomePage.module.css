@@ -244,33 +244,27 @@
   .foreground {
     margin: 0;
   }
-
   .name {
     font-size: 2rem;
   }
-
   .bio {
     font-size: 1.25rem;
     margin-bottom: 2rem;
   }
-
   .button {
     font-size: 1rem;
-    margin-top: 1rem;
   }
-
   .outlined {
     font-size: 1rem;
-
   }
-
   .illustration {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 80vw;
-    height: 40vh;
+    right: 0;
+    width: 75vw;
+    height: 50vh;
     z-index: 1;
   }
-
 }
+
+
