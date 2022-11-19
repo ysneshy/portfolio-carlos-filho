@@ -33,6 +33,7 @@
 
 }
 
+/* shadow */
 .name {
 
   text-shadow: 0px 0px 10px rgba(113, 17, 245);
@@ -48,26 +49,43 @@
 }
 
 /*transicao de cor */
-.name:hover,
 .name:hover {
   cursor: pointer;
   color: rgba(113, 17, 245);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 2s;
+
 }
 
 /* efeito astronalta roxo */
 .name span {
-  color: rgba(113, 17, 245)
+  color: rgba(113, 17, 245);
 }
 
 .name p {
   color: rgb(210, 210, 210);
 }
+/*translation astronault*/
+.name span:hover {
+  color: #ff0000;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 4s, 
+}
 
+.span {
+  animation:move 1s linear infinite alternate;
+}
+@keyframes move{
+  0%{ margin-left:0 }
+  100%{ margin-left:200px}
+}
+
+/*text shadom */
 .bio {
-
 
   text-shadow: 0px 0px 10px rgba(113, 17, 245);
 
@@ -78,7 +96,6 @@
   -ms-text-shadow: 0px 0px 10px rgba(113, 17, 245);
 
   -o-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
 
 }
 
@@ -132,9 +149,10 @@
 .bio:hover {
   cursor: pointer;
   color: rgba(113, 17, 245);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 2s;
 }
 
 /* botoes gostosos */
@@ -148,9 +166,10 @@
   border-radius: 0px 100px 0px 100px;
   cursor: pointer;
   box-shadow: 0 0 30px 5px rgba(113, 17, 245);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all 01s ease-out;
+  -moz-transition: all 01s ease-out;
+  transition: all 01s ease-out;
+  transition: color 1s, background 2s;
 }
 
 .outlined {
@@ -170,11 +189,12 @@
   border: 2px solid rgb(191, 64, 64);
   background: rgb(255, 87, 34);
   box-shadow: 0 0 30px 5px rgb(191, 64, 64);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out
-}
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 1s, background 2s;
 
+}
 
 .illustration {
   height: 500px;
