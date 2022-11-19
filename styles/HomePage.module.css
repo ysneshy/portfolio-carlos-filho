@@ -59,7 +59,7 @@
 .bio::after {
   margin-left: 0.4rem;
   width: 0.125em;
-  background: var(--accent-color);
+  background: rgba(113, 17, 245);
   animation: typewriter 2.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
 }
@@ -77,9 +77,8 @@
   }
 }
 
-
 .button {
-  background: var(--accent-color);
+  background: rgb(155, 141, 162);
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
   margin-right: 1.5rem;
@@ -87,7 +86,6 @@
   font-weight: 600;
   border-radius: 10px;
   cursor: pointer;
-  background: rgb(155, 141, 162);
   box-shadow: 0 0 30px 5px rgba(113, 17, 245);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -116,6 +114,7 @@
     transition: all 0.2s ease-out
     
 }
+
 
 .illustration {
   height: 500px;

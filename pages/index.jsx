@@ -40,12 +40,10 @@ export default function HomePage() {
       <div className={styles.container}>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <Flip delay={5000} count={2}>
+            <Flip delay={3000} count={2}>
               <h1 className={styles.name}><FaUserAstronaut />&nbsp;Carlos Augusto Diniz Filho</h1>
             </Flip>
-            <Flip delay={9000} count={2}>
               <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
-            </Flip>
             <Link href="/projects">
               <button className={styles.button}><DiAndroid />Meus projetos</button>
             </Link>
@@ -61,7 +59,7 @@ export default function HomePage() {
           <div>
           </div>
           <div className={styles.illustration} >
-            <Flip delay={1000} count={2}>
+            <Flip delay={6000} count={2}>
               <img src="background.svg"  width="290px" alt="software" />
             </Flip>
           </div>
