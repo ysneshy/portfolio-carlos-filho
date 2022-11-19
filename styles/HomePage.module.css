@@ -30,6 +30,42 @@
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  
+}
+
+.name:hover,
+  .name:hover {
+    color: #eee;
+      color: rgba(113, 17, 245);
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+  }
+
+  .name::before,
+.name::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+  
+  .name::after {
+    margin-left: 0.4rem;
+    width: 0.125em;
+    background: rgba(113, 17, 245);
+    animation: typewriter 2.5s steps(24) 500ms forwards,
+      blink 750ms steps(24) infinite;
+  }
+  
+
+.name span {
+  color:rgba(113, 17, 245)
+}
+.name p {
+  color: rgb(210, 210, 210);
 }
 
 .bio {
@@ -268,6 +304,7 @@
   .outlined {
     font-size: 1rem;
   }
+
   .illustration {
     position: absolute;
     bottom: 0;
