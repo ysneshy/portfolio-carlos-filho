@@ -41,7 +41,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <Flip delay={3000} count={2}>
-              <h2 className={styles.name}><span><FaUserAstronaut /></span>&nbsp;Carlos Augusto Diniz Filho</h2>
+              <h4 className={styles.name}><span><FaUserAstronaut /></span>&nbsp;Carlos Augusto Diniz Filho</h4>
             </Flip>
               <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
             <Link href="/projects">
