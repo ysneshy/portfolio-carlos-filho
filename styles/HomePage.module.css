@@ -36,11 +36,12 @@
 /*transicao de cor */
 .name:hover,
 .name:hover {
-  color: #eee;
+  cursor: pointer;
   color: rgba(113, 17, 245);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+
 }
 
 /* modificacao da pausa animacao */
@@ -116,6 +117,16 @@
   }
 }
 
+/*transicao de cor */
+.bio:hover,
+.bio:hover {
+  cursor: pointer;
+  color: rgba(113, 17, 245);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* botoes gostosos */
 .button {
   background: rgb(155, 141, 162);
   font-size: 1.25rem;
@@ -210,17 +221,6 @@
     font-size: 2rem;
   }
 
-  .button:hover,
-  .outlined:hover {
-
-    color: rgb(255, 202, 40);
-    border: 2px solid rgb(191, 64, 64);
-    background: rgb(255, 87, 34);
-    box-shadow: 0 0 30px 5px rgb(191, 64, 64);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out
-  }
 
   .outlined {
     font-size: 2rem;
@@ -318,18 +318,6 @@
 
   .button {
     font-size: 1rem;
-  }
-
-  .button:hover,
-  .outlined:hover {
-
-    color: rgb(255, 202, 40);
-    border: 2px solid rgb(191, 64, 64);
-    background: rgb(255, 87, 34);
-    box-shadow: 0 0 30px 5px rgb(191, 64, 64);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out
   }
 
   .outlined {
