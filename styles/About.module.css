@@ -18,7 +18,7 @@
 }
 
 .illustration {
-  height: 16vh;
+  height: 18vh;
   display: flex;
   gap: 2rem;
   width: 300px;
@@ -28,7 +28,7 @@
 }
 
 .illustration {
-  width: 150px;
+  width: 190px;
   animation: float 6s ease-in-out infinite;
 }
 

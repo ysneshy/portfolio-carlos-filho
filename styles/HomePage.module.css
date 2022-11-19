@@ -132,7 +132,6 @@
 
 .illustration {
 
-width: 280px;
   animation: float 5s ease-in-out infinite;
 }
 
@@ -273,9 +272,9 @@ width: 280px;
   .illustration {
     position: absolute;
     bottom: 0;
-    right: 60px;
+    right: 65px;
     width: 65vw;
-    height: 37vh;
+    height: 33vh;
     z-index: 1;
   }
 }
