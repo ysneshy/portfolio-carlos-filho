@@ -76,13 +76,7 @@
   transition: color 4s, 
 }
 
-.span {
-  animation:move 1s linear infinite alternate;
-}
-@keyframes move{
-  0%{ margin-left:0 }
-  100%{ margin-left:200px}
-}
+
 
 /*text shadom */
 .bio {
