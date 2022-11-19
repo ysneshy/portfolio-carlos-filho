@@ -273,9 +273,9 @@ width: 280px;
   .illustration {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 60px;
     width: 65vw;
-    height: 30vh;
+    height: 36vh;
     z-index: 1;
   }
 }
