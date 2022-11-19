@@ -30,13 +30,15 @@
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  
 
 }
+
 
 /* shadow */
 .name {
 
-  text-shadow: 0px 0px 10px rgba(113, 17, 245);
+  text-shadow: 0px 0px 50px rgba(113, 17, 245);
 
   -webkit-text-shadow: 0px 0px 10px rgba(113, 17, 245);
 
@@ -59,6 +61,7 @@
 
 }
 
+
 /* efeito astronalta roxo */
 .name span {
   color: rgba(113, 17, 245);
@@ -67,18 +70,18 @@
 .name p {
   color: rgb(210, 210, 210);
 }
+
 /*translation astronault*/
 .name span:hover {
   color: #ff0000;
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   transition: all 1s ease-out;
-  transition: color 4s, 
+  transition: color 4s,
 }
 
 
-
-/*text shadom */
+/*text shadown */
 .bio {
 
   text-shadow: 0px 0px 10px rgba(113, 17, 245);

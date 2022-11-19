@@ -38,6 +38,7 @@ export default function HomePage() {
       <div>
       </div>
       <div className={styles.container}>
+        
         <div className={styles.foreground}>
           <div className={styles.content}>
             <Flip delay={3000} count={2}>
