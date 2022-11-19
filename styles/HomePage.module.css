@@ -33,6 +33,7 @@
 
 }
 
+
 /*transicao de cor */
 .name:hover,
 .name:hover {
@@ -41,25 +42,6 @@
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
-
-/* modificacao da pausa animacao */
-.name::before,
-.name::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.name::after {
-  margin-left: 0.4rem;
-  width: 0.125em;
-  background: rgba(113, 17, 245);
-  animation: typewriter 2.5s steps(24) 500ms forwards,
-    blink 750ms steps(24) infinite;
 }
 
 /* efeito astronalta roxo */
@@ -133,7 +115,7 @@
   margin-right: 1.5rem;
   color: #371B45;
   font-weight: 600;
-  border-radius: 10px;
+  border-radius:0px 100px 0px 100px;
   cursor: pointer;
   box-shadow: 0 0 30px 5px rgba(113, 17, 245);
   -webkit-transition: all 0.2s ease-out;
@@ -148,7 +130,7 @@
   border: 2px solid var(--accent-color);
   background: transparent;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius:0px 100px 0px 100px;
 }
 
 .button:hover,
