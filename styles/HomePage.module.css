@@ -6,7 +6,10 @@
   height: 75vh;
   flex-direction: column;
   position: relative;
+  
 }
+
+
 
 .background {
   font-size: 5rem;
@@ -39,7 +42,7 @@
 .name {
 
   text-shadow: 0px 0px 50px rgba(113, 17, 245);
-
+  
   -webkit-text-shadow: 0px 0px 10px rgba(113, 17, 245);
 
   -moz-text-shadow: 0px 0px 10px rgba(113, 17, 245);
@@ -64,7 +67,7 @@
 
 /* efeito astronalta roxo */
 .name span {
-  color: rgba(113, 17, 245);
+  color: #9B8DA2;
 }
 
 .name p {
@@ -73,7 +76,7 @@
 
 /*translation astronault*/
 .name span:hover {
-  color: #ff0000;
+  color: rgb(191, 64, 64);
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   transition: all 1s ease-out;
@@ -152,51 +155,6 @@
 }
 
 
-
-/*teste*/
-.name {
-  
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.name:before,
-.name:after {
-  content: '';
-  padding: .9em .4em;
-  position: absolute;
-  left: 50%;
-  width: 100%;
-  top: 50%;
-  display: block;
-  border-radius: 90px 100px 90px 100px;
-  border: 2px dotted #7111F5;
-  transform: translateX(-50%) translateY(-50%) rotate(0deg);
-  animation: 10s infinite alternate ease-in-out tipsy;
-}
-
-.name:before {
-  border-color: #7111F5 #7111F5 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-  z-index: -1;
-}
-
-.name:after {
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #7111F5 #7111F5;
-  /*box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);*/
-}
-
-@keyframes tipsy {
-  0% {
-    transform: translateX(-50%) translateY(-50%) rotate(0deg);
-  }
-  100% {
-    transform: translateX(-50%) translateY(-50%) rotate(360deg);
-  }
-}
-
-
-
-/*teste*/
-
 /* botoes gostosos */
 .button {
   background: rgb(155, 141, 162);
@@ -250,6 +208,7 @@
   justify-content: center;
   background-repeat: round;
 }
+
 
 .illustration {
 

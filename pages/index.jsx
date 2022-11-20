@@ -8,6 +8,7 @@ import { FaMailchimp } from "react-icons/fa";
 import { Fade, Rotate, Zoom, Swing, Flip } from 'react-reveal';
 import { DiAndroid, DiMsqlServer } from "react-icons/di";
 
+
 export default function HomePage() {
 
   const [loading, setLoading] = React.useState(false);
@@ -35,10 +36,11 @@ export default function HomePage() {
       )
       }
       <br></br>
+      
+      <br></br>
       <div>
       </div>
       <div className={styles.container}>
-        
         <div className={styles.foreground}>
           <div className={styles.content}>
             <Flip delay={3000} count={2}>
@@ -57,11 +59,12 @@ export default function HomePage() {
                 <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
               </Link>
           </div>
+          
           <div>
           </div>
           <div className={styles.illustration} >
             <Flip delay={6000} count={2}>
-              <img src="background.svg"  width="290px" alt="software" />
+              <span><img src="background.svg"  width="290px" alt="software" /></span>
             </Flip>
           </div>
         </div>
