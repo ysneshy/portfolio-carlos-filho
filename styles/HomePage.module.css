@@ -142,7 +142,6 @@
 }
 
 /*transicao de cor */
-.bio:hover,
 .bio:hover {
   cursor: pointer;
   color: rgba(113, 17, 245);
@@ -169,7 +168,8 @@
   width: 100%;
   top: 50%;
   display: block;
-  border: 2px solid #7111F5;
+  border-radius: 90px 100px 90px 100px;
+  border: 2px dotted #7111F5;
   transform: translateX(-50%) translateY(-50%) rotate(0deg);
   animation: 10s infinite alternate ease-in-out tipsy;
 }
@@ -192,6 +192,9 @@
     transform: translateX(-50%) translateY(-50%) rotate(360deg);
   }
 }
+
+
+
 /*teste*/
 
 /* botoes gostosos */
