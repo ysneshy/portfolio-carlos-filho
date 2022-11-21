@@ -1,6 +1,6 @@
 .container {
 
-    width: 350px;
+    width: 300px;
     height: 150px;
     overflow: hidden;
 }
@@ -210,7 +210,7 @@
         font-size: 1rem;
     }
 
-    .illustration {
+    .container {
         position: absolute;
         bottom: 0;
         right: 65px;
