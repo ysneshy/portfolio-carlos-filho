@@ -9,7 +9,6 @@ import { Fade, Rotate, Zoom, Swing, Flip } from 'react-reveal';
 import { DiAndroid, DiMsqlServer } from "react-icons/di";
 import AkiraYXK from '../components/Orion';
 
-
 export default function HomePage() {
 
   const [loading, setLoading] = React.useState(false);
@@ -43,9 +42,7 @@ export default function HomePage() {
       <div className={styles.container}>
       <AkiraYXK />
         <div className={styles.foreground}>
-        <AkiraYXK />
           <div className={styles.content}>
-          <AkiraYXK />
             <Flip delay={3000} count={2}>
               <h4 className={styles.name}><span><FaUserAstronaut /></span>&nbsp;Carlos Augusto Diniz Filho</h4>
             </Flip>
