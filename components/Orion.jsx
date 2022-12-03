@@ -5,6 +5,7 @@ const AkiraYXK = () => {
         <div className={styles.galaxia}>
             <div className={styles.stars}>
                 <div className={styles.stars2}></div>
+                <div className={styles.stars3}></div>
             </div>
         </div>
     )
