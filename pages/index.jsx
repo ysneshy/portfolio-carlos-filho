@@ -58,7 +58,6 @@ export default function HomePage() {
               <button className={styles.outlined}><FaMailchimp />&nbsp;Troca tema</button>
             </Link>
           </div>
-          <AkiraYXK />
           <div>
           </div>
           <div className={styles.illustration} >
