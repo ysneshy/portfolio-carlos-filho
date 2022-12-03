@@ -1,10 +1,10 @@
 .galaxia {
-    width: 50%;
-    height: 50%;
-    max-width: 1200px;
-    min-width: 760;
-    overflow: hidden;
-    
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    flex-direction: column;
+    position: relative;
+
 }
 
 .stars {
@@ -741,11 +741,6 @@
     display: block;
     overflow-y: unset;
 }
-
-.hidden {
-    display: none !important;
-}
-
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
