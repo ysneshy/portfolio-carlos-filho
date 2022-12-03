@@ -7,7 +7,6 @@ import { FaUserAstronaut, } from "react-icons/fa";
 import { FaMailchimp } from "react-icons/fa";
 import { Fade, Rotate, Zoom, Swing, Flip } from 'react-reveal';
 import { DiAndroid, DiMsqlServer } from "react-icons/di";
-import AkiraYXK from '../components/Orion';
 
 export default function HomePage() {
 
@@ -65,7 +64,6 @@ export default function HomePage() {
               <span><img src="background.svg" width="290px" alt="software" /></span>
             </Flip>
           </div>
-          <AkiraYXK />
         </div>
       </div>
     </>

@@ -13,12 +13,15 @@ const Layout = ({ children }) => {
         <Sidebar />
         <Explorer />
         <div style={{ width: '100%' }}>
+          <div className={styles.stars}></div>
+          <div className={styles.stars2}></div>
+          <div className={styles.stars3}></div>
           <Tabsbar />
           <main className={styles.content}>{children}</main>
         </div>
       </div>
       <Bottombar />
-        
+
     </>
   );
 };
