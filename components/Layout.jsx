@@ -4,7 +4,6 @@ import Explorer from '../components/Explorer';
 import Bottombar from '../components/Bottombar';
 import Tabsbar from './Tabsbar';
 import styles from '../styles/Layout.module.css';
-import AkiraYXK from '../components/Orion';
 
 const Layout = ({ children }) => {
   return (
@@ -12,17 +11,14 @@ const Layout = ({ children }) => {
       <Titlebar />
       <div className={styles.main}>
         <Sidebar />
-        
         <Explorer />
         <div style={{ width: '100%' }}>
           <Tabsbar />
-          
           <main className={styles.content}>{children}</main>
-       
         </div>
       </div>
       <Bottombar />
-        <AkiraYXK />
+        
     </>
   );
 };
