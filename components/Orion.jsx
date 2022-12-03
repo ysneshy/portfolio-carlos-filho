@@ -12,7 +12,3 @@ const AkiraYXK = () => {
 }
 
 export default AkiraYXK;
-
-
-
-
