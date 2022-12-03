@@ -41,8 +41,11 @@ export default function HomePage() {
       <div>
       </div>
       <div className={styles.container}>
+      <AkiraYXK />
         <div className={styles.foreground}>
+        <AkiraYXK />
           <div className={styles.content}>
+          <AkiraYXK />
             <Flip delay={3000} count={2}>
               <h4 className={styles.name}><span><FaUserAstronaut /></span>&nbsp;Carlos Augusto Diniz Filho</h4>
             </Flip>
