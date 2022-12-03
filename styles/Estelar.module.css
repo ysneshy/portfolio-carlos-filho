@@ -1,10 +1,15 @@
 .galaxia {
+    width: 50%;
+    height: 50%;
+    max-width: 1200px;
+    min-width: 760;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
-    height: 75vh;
-    flex-direction: column;
-    position: relative;
-
+  justify-content: center;
+  height: 75vh;
+  flex-direction: column;
+  position: relative;
+    
 }
 
 .stars {
