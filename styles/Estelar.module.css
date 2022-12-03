@@ -739,12 +739,6 @@
     }
 }
 
-.stars-container {
-    /* margin: 5em; */
-    max-width: 10vh;
-    display: block;
-    overflow-y: unset;
-}
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
