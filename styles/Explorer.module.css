@@ -6,6 +6,16 @@
   border-right: 1px solid var(--explorer-border);
 }
 
+/*translation astronault*/
+.title:hover {
+  color: rgba(113, 17, 245);
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 4s,
+}
+
+
 .title {
   padding: 0.5rem 0.75rem;
   font-weight: 300;
@@ -26,6 +36,7 @@
   cursor: pointer;
   padding: 0 0.5rem;
 }
+
 
 .checkbox {
   position: absolute;
@@ -50,8 +61,15 @@
 }
 
 .file:hover {
-  background: var(--explorer-hover-bg);
-}
+  background: #9B8DA2;
+  
+    color: rgba(113, 17, 245);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    transition: color 4s,
+  }
+  
 
 .chevron {
   transition: transform 0.2s;
