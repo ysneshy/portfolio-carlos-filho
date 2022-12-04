@@ -18,7 +18,7 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="Desenvolvedor Front-End, construo sistemas e sites web."
       />
-      <meta property="og:image" content="https://imgur.com/sp4ppUF.png" />
+      <meta property="og:image" content="https://imgur.com/0jXsflo.png" />
       <meta property="og:url" content="https://carlosfilho.vercel.app/" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>

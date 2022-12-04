@@ -12,7 +12,7 @@
 
 <br>
 
-![Resultado final do projeto](https://imgur.com/sp4ppUF.png)
+![Resultado final do projeto](https://imgur.com/0jXsflo.png)
 
 <br>
 
