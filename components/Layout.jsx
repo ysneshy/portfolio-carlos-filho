@@ -18,8 +18,6 @@ const Layout = ({ children }) => {
           <div className={styles.stars3}></div>
           <div className={styles.shooting_star}></div>
           <div className={styles.shooting_star}></div>
-          <div className={styles.shooting_star}></div>
-          <div className={styles.shooting_star}></div>
           <Tabsbar />
           <main className={styles.content}>{children}</main>
         </div>
