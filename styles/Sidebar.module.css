@@ -8,6 +8,7 @@
   height: calc(100vh - 30px - 25px);
 }
 
+
 .iconContainer {
   cursor: pointer;
   width: 100%;
@@ -28,6 +29,7 @@
   display: block;
   margin: 0 auto;
 }
+
 
 @media screen and (min-width: 2000px) {
   .sidebar {

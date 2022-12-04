@@ -16,6 +16,17 @@
   margin-bottom: 2em;
   font-size: 1.5em;
 }
+/*transicao de cor */
+.container h3:hover {
+  cursor: pointer;
+  color: rgb(191, 64, 64);
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 2s;
+
+}
+
 .illustration {
   height: 17vh;
   display: flex;

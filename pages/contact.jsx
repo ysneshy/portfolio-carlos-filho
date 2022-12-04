@@ -14,7 +14,7 @@ const ContactPage = () => {
         <div>
           <h3 className={styles.heading}><FaUserAstronaut />&nbsp;Encontre-me nas Redes Sociais.</h3>
           <div className={styles.illustration}>
-          <Rotate Rotate delay={1000} count={5}>
+          <Rotate Rotate delay={1000} count={3}>
             <img src="astrocontact.svg" width="160px"  alt="software" />
             </Rotate>
           </div>

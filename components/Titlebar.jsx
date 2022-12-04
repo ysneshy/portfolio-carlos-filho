@@ -7,7 +7,7 @@ import { DiVisualstudio } from "react-icons/di";
 const Titlebar = () => {
   return (
     <section className={styles.titlebar}>
-      <FaUserAstronaut />
+      <span><FaUserAstronaut /></span>
       <div className={styles.items}>
         <p>Arquivo</p>
         <p>Editar</p>

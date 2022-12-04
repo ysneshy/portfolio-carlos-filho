@@ -11,7 +11,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/ysneshy/portfolio-carlos-filho"
+          href="https://www.linkedin.com/in/ysneshy/"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -19,21 +19,43 @@ const Bottombar = () => {
           <SourceControlIcon className={styles.icon} />
           <p>main</p>
         </a>
+        <a
+          href="https://www.linkedin.com/in/ysneshy/"
+          target="_blank"
+          rel="noreferrer noopener"
+          className={styles.section}
+        >
         <div className={styles.section}>
           <ErrorIcon className={styles.icon} />
           <p className={styles.errorText}>0</p>&nbsp;&nbsp;
           <WarningIcon className={styles.icon} />
           <p>0</p>
         </div>
+        </a>
       </div>
       <div className={styles.container}>
+      <a
+          href="https://www.facebook.com/ysneshy"
+          target="_blank"
+          rel="noreferrer noopener"
+          className={styles.section}
+        >
         <div className={styles.section}>
           <NextjsIcon className={styles.icon} />
           <p>Powered by Next.js</p>
         </div>
+        </a>
         <div className={styles.section}>
+        <a
+          href="https://www.facebook.com/ysneshy"
+          target="_blank"
+          rel="noreferrer noopener"
+          className={styles.section}
+        >
+          
           <CheckIcon className={styles.icon} />
           <p>-YxK-</p>
+          </a>
         </div>
         <div className={styles.section}>
           <BellIcon />

@@ -2,7 +2,7 @@
   background: var(--bottombar-bg);
   height: 25px;
   border-top: 1px solid var(--bottombar-border);
-  color: rgb(225, 228, 232);
+  color: rgba(113, 17, 245);
   padding: 0 0.5rem;
   display: flex;
   align-items: center;
@@ -34,8 +34,16 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*transicao de cor */
 .section:hover {
   background: var(--bottombar-hover-bg);
+  cursor: pointer;
+  color: rgba(113, 17, 245);
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 2s;
+
 }
 
 @media screen and (max-width: 600px) {
