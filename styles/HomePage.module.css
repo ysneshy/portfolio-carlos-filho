@@ -252,6 +252,27 @@
 }
 }
 
+.container{
+  background: linear-gradient(#1497be, #1c2aec);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  animation: text 5s linear infinite;
+}
+
+@keyframes text {
+  0% {
+      filter: hue-rotate(0deg);
+  }
+  50% {
+      filter: hue-rotate(180deg);
+  }
+100% {
+    filter: hue-rotate(360deg);
+}
+}
+
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
