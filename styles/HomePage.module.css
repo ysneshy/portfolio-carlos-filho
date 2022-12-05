@@ -225,7 +225,7 @@
 }
 
 
-/*transicion */
+/*transicion button fade ccolor */
 
 .button {
   background: linear-gradient(#1497be, #1c2aec);
@@ -246,6 +246,7 @@
   }
 }
 
+/* astronalta fade color */
 .illustration span  {
   background: linear-gradient(#1497be, #1c2aec);
   color: transparent;
@@ -266,6 +267,9 @@
     filter: hue-rotate(360deg);
   }
 }
+
+/* efeito new */
+
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
