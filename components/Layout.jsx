@@ -5,6 +5,7 @@ import Bottombar from '../components/Bottombar';
 import Tabsbar from './Tabsbar';
 import styles from '../styles/Layout.module.css';
 
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -29,3 +30,5 @@ const Layout = ({ children }) => {
 };
 
 export default Layout;
+
+
