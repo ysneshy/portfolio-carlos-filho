@@ -29,7 +29,7 @@
 
 .name {
   color: #eee;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
 
@@ -37,7 +37,7 @@
 }
 
 /* shadow */
-.name {
+/*.name {
 
   text-shadow: 0px 0px 50px rgba(113, 17, 245);
 
@@ -54,11 +54,25 @@
 /*transicao de cor */
 .name:hover {
   cursor: pointer;
-  color: rgba(113, 17, 245);
+  color: rgb(191, 64, 64);
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   transition: all 1s ease-out;
   transition: color 2s;
+  text-shadow: 1px 1px 1px #919191,
+      1px 2px 1px #630505,
+      1px 3px 1px #630505,
+      1px 4px 1px #630505,
+      1px 5px 1px #630505,
+      1px 6px 1px #630505,
+      1px 7px 1px #630505,
+      1px 8px 1px #630505,
+      1px 9px 1px #630505,
+      1px 10px 1px #630505,
+  1px 18px 6px rgb(191, 64, 64),
+  1px 22px 10px rgb(191, 64, 64),
+  1px 25px 35px rgb(191, 64, 64),
+  1px 30px 60px rgb(191, 64, 64);
 
 }
 
@@ -268,7 +282,25 @@
   }
 }
 
-/* efeito new */
+/* efeito new  letra 3d*/
+
+.name  {
+  color: #7111f5;
+  text-shadow: 1px 1px 1px #919191,
+      1px 2px 1px #361b44,
+      1px 3px 1px #361b44,
+      1px 4px 1px #361b44,
+      1px 5px 1px #361b44,
+      1px 6px 1px #361b44,
+      1px 7px 1px #361b44,
+      1px 8px 1px #361b44,
+      1px 9px 1px #361b44,
+      1px 10px 1px #361b44,
+  1px 18px 6px rgb(113, 17, 245),
+  1px 22px 10px rgb(113, 17, 245),
+  1px 25px 35px rgb(113, 17, 245),
+  1px 30px 60px rgb(113, 17, 245);
+}
 
 
 /* 4K Screens */
