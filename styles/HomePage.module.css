@@ -65,23 +65,21 @@
       1px 4px 1px #630505,
       1px 5px 1px #630505,
       1px 6px 1px #630505,
-      1px 7px 1px #630505,
+      /*1px 7px 1px #630505,
       1px 8px 1px #630505,
       1px 9px 1px #630505,
-      1px 10px 1px #630505,
-  1px 18px 6px rgb(191, 64, 64),
-  1px 22px 10px rgb(191, 64, 64),
-  1px 25px 35px rgb(191, 64, 64),
-  1px 30px 60px rgb(191, 64, 64);
+      1px 10px 1px #630505,*/
+  1px 09px 6px rgb(191, 64, 64),
+  /*1px 22px 10px rgb(191, 64, 64),
+  1px 25px 35px rgb(191, 64, 64),*/
+  1px 20px 30px rgb(191, 64, 64);
 
 }
-
 
 /* efeito astronalta roxo */
 .name span {
   color: #9B8DA2;
 }
-
 
 /*translation astronault*/
 .name span:hover {
@@ -91,7 +89,6 @@
   transition: all 1s ease-out;
   transition: color 4s,
 }
-
 
 /*text shadown */
 .bio {
@@ -139,7 +136,6 @@
   animation: typewriter 2.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
 }
-
 
 @keyframes typewriter {
   to {
@@ -292,14 +288,14 @@
       1px 4px 1px #361b44,
       1px 5px 1px #361b44,
       1px 6px 1px #361b44,
-      1px 7px 1px #361b44,
+      /*1px 7px 1px #361b44,
       1px 8px 1px #361b44,
       1px 9px 1px #361b44,
-      1px 10px 1px #361b44,
-  1px 18px 6px rgb(113, 17, 245),
-  1px 22px 10px rgb(113, 17, 245),
-  1px 25px 35px rgb(113, 17, 245),
-  1px 30px 60px rgb(113, 17, 245);
+      1px 10px 1px #361b44,*/
+  1px 09px 6px rgb(113, 17, 245),
+  /*1px 22px 10px rgb(113, 17, 245),
+  1px 25px 35px rgb(113, 17, 245),*/
+  1px 20px 30px rgb(113, 17, 245);
 }
 
 
