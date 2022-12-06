@@ -12,17 +12,6 @@
   border-bottom: 1px solid #191d20;
 }
 
-/*transicao de cor */
-.title:hover {
-  cursor: pointer;
-  color: rgba(113, 17, 245);
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-  transition: color 2s;
-
-}
-
 /*translation astronault*/
 .titlebar span:hover {
   color: rgb(191, 64, 64);
@@ -37,17 +26,6 @@
   display: flex;
   margin-right: auto;
   margin-left: 0.5rem;
-}
-
-/*transicao de cor */
-.items:hover {
-  cursor: pointer;
-  color: rgb(0, 188, 212);
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-  transition: color 2s;
-
 }
 
 .title {

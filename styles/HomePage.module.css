@@ -235,27 +235,6 @@
 }
 
 
-/*transicion button fade ccolor */
-
-.button {
-  background: linear-gradient(#1497be, #1c2aec);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  animation: text 5s linear infinite;
-}
-
-@keyframes text {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-
-  100% {
-    filter: hue-rotate(360deg);
-  }
-}
-
 /* astronalta fade color */
 .illustration span  {
   background: linear-gradient(#1497be, #1c2aec);
@@ -297,6 +276,9 @@
   1px 25px 35px rgb(113, 17, 245),*/
   1px 20px 30px rgb(113, 17, 245);
 }
+
+/*new */
+
 
 
 /* 4K Screens */
