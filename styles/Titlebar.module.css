@@ -66,6 +66,31 @@
   background: #9B8DA2;
 }
 
+/*alteration */
+.minimize:hover {
+  background: #81C929;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    transition: color 4s,
+  }
+
+  .maximize:hover {
+    background: #FFCA28;
+      -webkit-transition: all 1s ease-out;
+      -moz-transition: all 1s ease-out;
+      transition: all 1s ease-out;
+      transition: color 4s,
+    }
+    
+    .close:hover {
+      background: #ff0000;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+        transition: color 4s,
+      }     
+
 @media screen and (max-width: 900px) {
   .items p {
     display: none;

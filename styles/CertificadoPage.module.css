@@ -10,7 +10,7 @@
 }
 
 .carousel {
-  width: 300px;
+  width: 295px;
   cursor: pointer;
   transition: width 2s, height 4s;
 

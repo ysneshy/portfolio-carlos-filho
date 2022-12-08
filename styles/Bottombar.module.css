@@ -19,6 +19,15 @@
   margin-right: 4px;
 }
 
+.bottomBar a:hover {
+  background: #9B8DA2;
+    color: rgba(113, 17, 245);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    transition: color 4s,
+  }
+
 .container {
   display: flex;
   align-items: center;

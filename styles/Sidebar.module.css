@@ -8,7 +8,6 @@
   height: calc(100vh - 30px - 25px);
 }
 
-
 .iconContainer {
   cursor: pointer;
   width: 100%;
@@ -30,6 +29,14 @@
   margin: 0 auto;
 }
 
+.icon:hover {
+  background: #9B8DA2;
+    color: rgba(113, 17, 245);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    transition: color 4s,
+  }
 
 @media screen and (min-width: 2000px) {
   .sidebar {
