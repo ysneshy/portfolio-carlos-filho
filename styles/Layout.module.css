@@ -1053,41 +1053,44 @@
 /*  teste */
 
 .lua {
-	position: absolute;
-	top: 23%;
-	left: 53%;
-	transform: translate(-50%,-50%);
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	background: #fff;
-	/*efeito de sombreamento*/
-	box-shadow: 0 0 15px rgba(0,155,255,0.5),
-				0 0 30px rgba(0,155,255,0.5),
-				0 0 45px rgba(0,155,255,0.5),
-				0 0 60px rgba(0,155,255,0.5),
-				0 0 10px rgba(0,155,255,0.5);
+  position: absolute;
+  top: 23%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+  /*efeito de sombreamento*/
+  box-shadow: 0 0 15px rgba(0, 155, 255, 0.5),
+    0 0 30px rgba(0, 155, 255, 0.5),
+    0 0 45px rgba(0, 155, 255, 0.5),
+    0 0 60px rgba(0, 155, 255, 0.5),
+    0 0 10px rgba(0, 155, 255, 0.5);
 }
 
-.foguete {
-	top: -50%;
-	left: -60%;
-	position: absolute;
-	transform-origin: 200px 200px;
-
-	animation: foguete 10s linear infinite;
+.lua {
+  animation: float 30s ease-in-out infinite;
 }
 
-.foguete img {
-	width: 85px;
-	height: 85px;
-}
+@keyframes float {
+  0% {
+    transform: translateX(0)
+  }
 
-@keyframes foguete {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+  25% {
+    transform: translateX(-25)
+  }
+
+  50% {
+    transform: translateX(-50px)
+  }
+
+  75% {
+    transform: translateX(-75px)
+  }
+
+  100% {
+    transform: translateX(0)
+  }
 }
