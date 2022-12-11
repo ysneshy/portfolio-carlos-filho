@@ -60,7 +60,7 @@ export default function HomePage() {
           <div>
           </div>
           <div className={styles.illustration} >
-              <span><img src="background.svg" width="290px" alt="software" /></span>
+              <span><img src="background.svg" width="270px" alt="software" /></span>
           </div>
         </div>
       </div>
