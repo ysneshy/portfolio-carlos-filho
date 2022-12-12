@@ -31,6 +31,20 @@
   margin-bottom: 0.5rem;
 }
 
+.name {
+
+  text-shadow: 0px 0px 10px rgba(113, 17, 245);
+
+  -webkit-text-shadow: 0px 0px 10px rgba(113, 17, 245);
+
+  -moz-text-shadow: 0px 0px 10px rgba(113, 17, 245);
+
+  -ms-text-shadow: 0px 0px 10px rgba(113, 17, 245);
+
+  -o-text-shadow: 0px 0px 10px rgba(113, 17, 245);
+
+}
+
 
 /*transicao de cor */
 .name:hover {
@@ -304,7 +318,6 @@
   }
 
   .name {
-    z-index: 1;
     font-size: 3rem;
     margin-bottom: 0.5rem;
   }
@@ -338,7 +351,6 @@
   }
 
   .name {
-    z-index: 1;
     font-size: 2rem;
   }
 
@@ -360,7 +372,7 @@
     bottom: 0;
     right: 65px;
     width: 65vw;
-    height: 33vh;
+    height: 18vh;
     z-index: 0;
   }
 }
