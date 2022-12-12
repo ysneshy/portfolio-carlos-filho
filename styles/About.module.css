@@ -76,7 +76,8 @@
 
   .terra {
     z-index: 0;
-    display: none;
+      display: block;
+      display: none;
   }
 
   .cointainer h2 {
@@ -117,15 +118,5 @@
   .terra {
     display: block;
     display: none;
-  }
-}
-
-/* Phone */
-@media screen and (max-width: 600px) {
-
-  .terra {
-    display: block;
-    display: none;
-
   }
 }
