@@ -1063,12 +1063,12 @@
   background-image: url(https://media.istockphoto.com/id/1301679047/photo/moon-closeup.jpg?s=170667a&w=0&k=20&c=HOaD1ApaNgVvme1hvaSOn22LsQeOK5keR7BsISnjzmI=);
   background-size:cover;
   box-shadow: -25px -25px 25px black inset;
-  /*efeito de sombreamento*/
-  box-shadow: 0 0 15px rgba(0, 155, 255, 0.5),
+  /*efeito de sombreamento  aura azul da lua*/
+  /*box-shadow: 0 0 15px rgba(0, 155, 255, 0.5),
   0 0 30px rgba(0, 155, 255, 0.5),
   0 0 45px rgba(0, 155, 255, 0.5),
   0 0 60px rgba(0, 155, 255, 0.5),
-  0 0 10px rgba(0, 155, 255, 0.5);
+  0 0 10px rgba(0, 155, 255, 0.5);*/
 }
 
 .lua {
