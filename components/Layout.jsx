@@ -20,6 +20,11 @@ const Layout = ({ children }) => {
           <div className={styles.shooting_star}></div>
           <div className={styles.shooting_star} ></div>
           <div className={styles.terra}></div>
+          <div className={styles.containere}></div>
+          <div className={styles.loader}></div>
+          <div className={styles.earth}></div>
+          <div className={styles.planetEarth}></div>
+          <div className={styles.planetMars}></div>
           <Tabsbar />
           <main className={styles.content}>{children}</main>
         </div>
