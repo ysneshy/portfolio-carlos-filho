@@ -280,7 +280,7 @@
     1450px 1297px #D63C4D, 528px 324px #D63C4D, 1285px 612px #D63C4D,
     1154px 1208px #D63C4D, 1048px 1588px #D63C4D, 1105px 1439px #D63C4D,
     408px 900px #D63C4D;
-  animation: animStar 50s linear infinite;
+  animation: animStar 70s linear infinite;
 }
 
 .stars:after {
@@ -597,7 +597,7 @@
     1677px 426px #1d92d5, 707px 1819px #1d92d5, 545px 1195px #1d92d5,
     960px 639px #1d92d5, 1073px 1980px #1d92d5, 1411px 99px #1d92d5,
     1468px 654px #1d92d5, 1898px 655px #1d92d5;
-  animation: animStar 100s linear infinite;
+  animation: animStar 120s linear infinite;
 }
 
 .stars2:after {
@@ -714,7 +714,7 @@
     380px 44px #7111F5, 1220px 1463px #7111F5, 1843px 1947px #7111F5,
     524px 1235px #7111F5, 1512px 560px #7111F5, 1598px 1369px #7111F5,
     1600px 1375px #7111F5;
-  animation: animStar 150s linear infinite;
+  animation: animStar 170s linear infinite;
 }
 
 .stars3:after {
@@ -1060,8 +1060,8 @@
 
 .terra {
   position: absolute;
-  top: 23%;
-  left: 53%;
+  top: 20%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 120px;
   height: 120px;
@@ -1072,29 +1072,18 @@
 }
 
 .terra {
-  animation: float 30s ease-in-out infinite;
+  animation: animateEarth 40s linear infinite;
 }
 
-@keyframes float {
+@keyframes animateEarth {
   0% {
-    transform: translateX(0)
+    background-position: 0;
   }
-
-  25% {
-    transform: translateX(-25)
-  }
-
-  50% {
-    transform: translateX(-50px)
-  }
-
-  75% {
-    transform: translateX(-75px)
-  }
-
   100% {
-    transform: translateX(0)
+    background-position: 359.8%;
   }
 }
+
+
 /* teste*/
 
