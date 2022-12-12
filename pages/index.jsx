@@ -59,6 +59,7 @@ export default function HomePage() {
           </div>
           <div>
           </div>
+          <div className={styles.terra}></div>
           <div className={styles.illustration} >
               <span><img src="background.svg" width="270px" alt="software" /></span>
           </div>
