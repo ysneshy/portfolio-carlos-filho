@@ -53,14 +53,14 @@
 /*eathe*/
 
 .terra {
-  position:absolute;
+  position: absolute;
   top: 2%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-image: url(../public/tterra.png);
+  background-image: url(https://ithoughthecamewithyou.com/image.axd?picture=Animation-of-a-year-of-Global-Cloud-Cover-2.png);
   background-size:cover;
   box-shadow: -25px -25px 25px black inset, 10px 10px 15px white inset, 0px 0px 20px #3a96ff;
   z-index: 1;
