@@ -1060,7 +1060,7 @@
 
 .terra {
   position: absolute;
-  top: 20%;
+  top: 24%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 120px;
@@ -1072,7 +1072,7 @@
 }
 
 .terra {
-  animation: animateEarth 40s linear infinite;
+  animation: animateEarth 60s linear  infinite;
 }
 
 @keyframes animateEarth {
