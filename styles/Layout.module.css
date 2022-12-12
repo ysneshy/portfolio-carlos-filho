@@ -1068,7 +1068,7 @@
   border-radius: 50%;
   background-image: url(https://ithoughthecamewithyou.com/image.axd?picture=Animation-of-a-year-of-Global-Cloud-Cover-2.png);
   background-size:cover;
-  box-shadow: -25px -25px 25px black inset;
+  box-shadow: -25px -25px 25px black inset, 10px 10px 15px white inset, 0px 0px 20px #3a96ff;
 }
 
 .terra {
