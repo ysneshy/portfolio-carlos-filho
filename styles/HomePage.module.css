@@ -85,7 +85,7 @@
   color: #9B8DA2;
 }
 
-/*translation astronault*/
+/*translation astronaultao lado do nome*/
 .name span:hover {
   color: rgb(191, 64, 64);
   -webkit-transition: all 1s ease-out;
@@ -94,7 +94,7 @@
   transition: color 4s,
 }
 
-/*text shadown */
+/*text shadown transicao front-end */
 .bio {
 
   text-shadow: 0px 0px 10px rgba(113, 17, 245);
