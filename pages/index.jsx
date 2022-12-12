@@ -15,7 +15,6 @@ export default function HomePage() {
   React.useEffect(() => {
     setTimeout(() => {
       setLoading(true);
-
     }, 1000);
   }, []);
 
@@ -59,7 +58,6 @@ export default function HomePage() {
           </div>
           <div>
           </div>
-          <div className={styles.terra}></div>
           <div className={styles.illustration} >
               <span><img src="background.svg" width="270px" alt="software" /></span>
           </div>

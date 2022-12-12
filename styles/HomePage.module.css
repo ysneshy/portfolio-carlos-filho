@@ -18,11 +18,12 @@
 }
 
 .foreground {
-  z-index: 2;
+
   display: flex;
   color: var(--accent-color);
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .name {
@@ -31,32 +32,6 @@
   font-weight: 500;
   margin-bottom: 0.5rem;
   z-index: 1;
-}
-
-/*eathe*/
-.terra {
-  z-index:0;
-  position: absolute;
-  top: 2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background-image: url(https://ithoughthecamewithyou.com/image.axd?picture=Animation-of-a-year-of-Global-Cloud-Cover-2.png);
-  background-size: cover;
-  box-shadow: -25px -25px 25px black inset, 10px 10px 15px white inset, 0px 0px 20px #3a96ff;
-  animation: animateEarth 80s linear infinite;
-}
-
-@keyframes animateEarth {
-  0% {
-    background-position: 0;
-  }
-
-  100% {
-    background-position: 359.8%;
-  }
 }
 
 /*transicao de cor */
