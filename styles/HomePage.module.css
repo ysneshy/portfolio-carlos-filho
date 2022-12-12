@@ -49,7 +49,7 @@
 /*transicao de cor */
 .name:hover {
   cursor: pointer;
-  color: rgb(191, 64, 64);
+  color: rgba(113, 17, 245);
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   transition: all 1s ease-out;
