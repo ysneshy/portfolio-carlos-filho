@@ -1,20 +1,23 @@
-.cointainer p{
+.cointainer p {
   line-height: 1.5;
   margin: 1rem 0;
   font-weight: lighter;
+  z-index: 1;
 }
 
 .containerSkills {
   margin-top: 1rem;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   max-width: 50vw;
+  z-index: 1;
 }
 
 .skill {
   max-width: 30vw;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .illustration {
@@ -35,12 +38,13 @@
 @keyframes float {
   0% {
     transform: translateX(0)
-}
-50% {
-    transform: translateX(-50px)
+  }
 
-}
-100% {
+  50% {
+    transform: translateX(-50px)
+  }
+
+  100% {
     transform: translateX(0)
   }
 }
@@ -66,13 +70,62 @@
     font-size: 0.8rem;
   }
 
-  .skill h4{
+  .skill h4 {
     font-size: 1rem;
   }
 
+  .terra {
+    z-index: 0;
+    display: none;
+  }
 
-  .cointainer h2{
+  .cointainer h2 {
     font-size: 1.1rem;
   }
 
+}
+
+/* 4K Screens */
+@media screen and (min-width: 2000px) {
+
+  .terra {
+    display: block;
+    display: none;
+  }
+
+}
+
+/* iPad Pro */
+@media screen and (max-width: 1100px) {
+
+  .terra {
+    display: block;
+    display: none;
+  }
+  }
+
+/* iPad */
+@media screen and (max-width: 900px) {
+  .terra {
+    display: block;
+    display: none;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1050px) {
+
+  .terra {
+    display: block;
+    display: none;
+  }
+}
+
+/* Phone */
+@media screen and (max-width: 600px) {
+
+  .terra {
+    display: block;
+    display: none;
+
+  }
 }

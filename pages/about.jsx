@@ -29,6 +29,7 @@ const AboutPage = () => {
           <p><img src="./next.svg" min-width="17px" max-width="17px" width="17px" align="left" />&nbsp;No momento estou consolidando conhecimento sobre Next.js e desenvolvimento com JavaScript e Typescript.</p>
           <h2><img src="./robots.svg" min-width="17px" max-width="17px" width="17px" align="left" />&nbsp;Algumas stacks que tenho conhecimento.</h2>
           <section className={styles.containerSkills}>
+          <div className={styles.terra}></div>
             <div className={styles.skill}>
 
               <h4><b><img src="./astyle.svg" min-width="15px" max-width="15px" width="15px" align="left" />Front-end</b></h4>
