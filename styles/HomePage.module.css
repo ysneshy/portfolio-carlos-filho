@@ -6,9 +6,7 @@
   height: 75vh;
   flex-direction: column;
   position: relative;
-
 }
-
 
 .background {
   font-size: 5rem;
@@ -32,27 +30,12 @@
   font-size: 3.2rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
-
-
+  z-index: 1;
 }
 
-/* shadow */
-/*.name {
-
-  text-shadow: 0px 0px 50px rgba(113, 17, 245);
-
-  -webkit-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-  -moz-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-  -ms-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-  -o-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-}
 /*eathe*/
-
 .terra {
+  z-index: 0;
   position: absolute;
   top: 2%;
   left: 50%;
@@ -61,16 +44,16 @@
   height: 120px;
   border-radius: 50%;
   background-image: url(https://ithoughthecamewithyou.com/image.axd?picture=Animation-of-a-year-of-Global-Cloud-Cover-2.png);
-  background-size:cover;
+  background-size: cover;
   box-shadow: -25px -25px 25px black inset, 10px 10px 15px white inset, 0px 0px 20px #3a96ff;
-  z-index: 1;
-  animation: animateEarth 80s linear  infinite;
+  animation: animateEarth 80s linear infinite;
 }
 
 @keyframes animateEarth {
   0% {
     background-position: 0;
   }
+
   100% {
     background-position: 359.8%;
   }
@@ -239,7 +222,6 @@
   background-repeat: round;
 }
 
-
 .illustration {
 
   animation: float 5s ease-in-out infinite;
@@ -258,8 +240,6 @@
     transform: translateY(0)
   }
 }
-
-
 
 /* astronalta fade color */
 .illustration span {
@@ -284,8 +264,8 @@
 }
 
 /* efeito new  letra 3d*/
-
-.name {
+/*.name {
+  z-index: 1;
   color: #7111f5;
   text-shadow: 1px 1px 1px #919191,
     1px 2px 1px #361b44,
@@ -297,13 +277,11 @@
       1px 8px 1px #361b44,
       1px 9px 1px #361b44,
       1px 10px 1px #361b44,*/
-    1px 09px 6px rgb(113, 17, 245),
-    /*1px 22px 10px rgb(113, 17, 245),
-  1px 25px 35px rgb(113, 17, 245),*/
-    1px 20px 30px rgb(113, 17, 245);
+    /*comeca aqui 1px 09px 6px rgb(113, 17, 245),
+    /* n entra 1px 22px 10px rgb(113, 17, 245),
+  /* nao entra 1px 25px 35px rgb(113, 17, 245),*/
+  /* acaba aqui  1px 20px 30px rgb(113, 17, 245);
 }
-
-
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
@@ -316,6 +294,7 @@
   }
 
   .name {
+    z-index: 1;
     font-size: 6rem;
   }
 
@@ -359,6 +338,7 @@
   }
 
   .name {
+    z-index: 1;
     font-size: 4rem;
   }
 
@@ -383,6 +363,7 @@
   }
 
   .name {
+    z-index: 1;
     font-size: 3rem;
     margin-bottom: 0.5rem;
   }
@@ -416,6 +397,7 @@
   }
 
   .name {
+    z-index: 1;
     font-size: 2rem;
   }
 
@@ -438,6 +420,6 @@
     right: 65px;
     width: 65vw;
     height: 33vh;
-    z-index: 1;
+    z-index: 0;
   }
 }
