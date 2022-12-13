@@ -21,8 +21,12 @@ export default function HomePage() {
       {!loading ? (
         <Loading />
       ) : (
-      
         <div className={styles.container}>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <div className={styles.foreground}>
             <div className={styles.content}>
               <Flip delay={1000} count={3}>
@@ -67,6 +71,7 @@ export default function HomePage() {
     </>
   );
 }
+
 
 export async function getStaticProps() {
   return {
