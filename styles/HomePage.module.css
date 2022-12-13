@@ -32,7 +32,6 @@
 }
 
 .name {
-
   text-shadow: 0px 0px 10px rgba(113, 17, 245);
 
   -webkit-text-shadow: 0px 0px 10px rgba(113, 17, 245);
@@ -44,7 +43,6 @@
   -o-text-shadow: 0px 0px 10px rgba(113, 17, 245);
 
 }
-
 
 /*transicao de cor */
 .name:hover {

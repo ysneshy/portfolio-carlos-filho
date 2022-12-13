@@ -38,7 +38,7 @@ export default function HomePage() {
                   &nbsp;Carlos Augusto Diniz Filho
                 </h6>
               </Flip>
-              <h6 className={styles.bio}>Desenvolvedor Web Front-End</h6>
+              <h6 className={styles.bio}>Desenvolvedor Front-End</h6>
               <Link href="/projects">
                 <button className={styles.button}>
                   <DiAndroid />
@@ -63,7 +63,7 @@ export default function HomePage() {
             <div></div>
             <div className={styles.illustration}>
               <span>
-                <img src="background.svg" width="270px" alt="software" />
+                <img src="background.svg" width="250px" alt="software" />
               </span>
             </div>
           </div>
