@@ -10,9 +10,17 @@
   cursor: pointer;
 }
 
-.tab p {
+.tab p:hover {
   margin-left: 5px;
+  background:transparent;
+  color: rgba(113, 17, 245);
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 4s,
 }
+
+
 
 .active {
   border-top: 1px solid var(--accent-color);
