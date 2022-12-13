@@ -367,10 +367,10 @@
 
   .illustration {
     position: absolute;
-    bottom: 0;
+    bottom: 10;
     right: 65px;
     width: 75vw;
-    height: 33vh;
+    height: 20vh;
     
   }
 }
