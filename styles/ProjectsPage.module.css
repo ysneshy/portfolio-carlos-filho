@@ -6,3 +6,8 @@
   gap: 1.5rem;
   position:relative;
 }
+
+
+.container h3 {
+  position:relative;
+}
