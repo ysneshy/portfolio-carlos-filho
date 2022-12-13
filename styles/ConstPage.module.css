@@ -5,6 +5,7 @@
   justify-content: center;
   height: 75vh;
   flex-direction: column;
+  position:relative;
 
 }
 
@@ -30,6 +31,7 @@
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  position:relative;
 }
 
 .bio {
@@ -146,11 +148,13 @@
 
   .name {
     font-size: 6rem;
+    position:relative;
   }
 
   .bio {
     font-size: 3rem;
     margin-bottom: 5rem;
+    position:relative;
   }
 
   .button {
@@ -187,11 +191,13 @@
 
   .name {
     font-size: 4rem;
+    position:relative;
   }
 
   .bio {
     font-size: 1.75rem;
     margin: 0.75rem auto 3rem;
+    position:relative;
   }
 
   .illustration {
@@ -212,10 +218,12 @@
   .name {
     font-size: 3rem;
     margin-bottom: 0.5rem;
+    position:relative;
   }
 
   .bio {
     font-size: 1.5rem;
+    position:relative;
   }
 
   .illustration {
@@ -244,11 +252,13 @@
 
   .name {
     font-size: 2rem;
+    position:relative;
   }
 
   .bio {
     font-size: 1.25rem;
     margin-bottom: 2rem;
+    position:relative;
   }
 
   .button {
