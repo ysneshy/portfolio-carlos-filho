@@ -109,6 +109,27 @@
   position: relative;
 }
 
+.illustration span{
+  background: linear-gradient(#1497be, #1c2aec);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  animation: text 5s linear infinite;
+}
+
+@keyframes text {
+  0% {
+    filter: hue-rotate(0deg);
+
+  }
+
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
 .cointainer h2 {
   text-shadow: 0px 0px 10px rgb(58, 150, 255);
 
@@ -121,9 +142,9 @@
   -o-text-shadow: 0px 0px 10px rgb(58, 150, 255);
 }
 
-
 /* Phone */
 @media screen and (max-width: 600px) {
+
   .skill {
     max-width: 100vw;
     text-shadow: 0px 0px 10px rgb(58, 150, 255);

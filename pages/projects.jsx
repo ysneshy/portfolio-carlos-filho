@@ -1,11 +1,13 @@
-import ProjectCard from '../components/ProjectCard';
-import { getProjects } from './api/projects';
-import styles from '../styles/ProjectsPage.module.css';
+import ProjectCard from "../components/ProjectCard";
+import { getProjects } from "./api/projects";
+import styles from "../styles/ProjectsPage.module.css";
 
 const ProjectsPage = ({ projects }) => {
   return (
     <>
-      <h3>Alguns projetos Realizado e melhorado</h3>
+      <article className={styles.cointainer}>
+        <h3>Alguns projetos Realizado e melhorado</h3>
+      </article>
       <div className={styles.container}>
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
@@ -19,7 +21,7 @@ export async function getStaticProps() {
   const projects = getProjects();
 
   return {
-    props: { title: 'Projects', projects },
+    props: { title: "Projects", projects },
   };
 }
 
