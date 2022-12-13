@@ -369,8 +369,8 @@
     position: absolute;
     bottom: 0;
     right: 65px;
-    width: 65vw;
-    height: 18vh;
-    z-index: 0;
+    width: 75vw;
+    height: 33vh;
+    
   }
 }
