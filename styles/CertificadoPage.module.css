@@ -13,11 +13,11 @@
   width: 295px;
   cursor: pointer;
   transition: width 2s, height 4s;
-
+  position:relative;
 }
 
 .carousel:hover {
-
+  position:relative;
 width: 340px;
 
 }
@@ -36,6 +36,7 @@ width: 340px;
   color: var(--accent-color);
   justify-content: space-between;
   align-items: center;
+  position:relative;
 }
 
 .name {
@@ -43,6 +44,7 @@ width: 340px;
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  position:relative;
 }
 
 .bio {
@@ -52,6 +54,7 @@ width: 340px;
   font-weight: 300;
   margin-bottom: 3rem;
   position: relative;
+  position:relative;
 }
 
 .bio::before,
@@ -62,6 +65,7 @@ width: 340px;
   right: 0;
   bottom: 0;
   left: 0;
+  position:relative;
 }
 
 .bio::before {

@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
+  position:relative;
 }
 
 .underline {
@@ -18,14 +19,17 @@
   background-size: 100% 0.2em;
   background-position: 0 88%;
   transition: background-size 0.25s ease-in;
+  position:relative;
 }
 
 .underline:hover {
   background-size: 100% 88%;
+  position:relative;
 }
 
 @media screen and (max-width: 900px) {
   .container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    position:relative;
   }
 }
