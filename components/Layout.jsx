@@ -20,9 +20,7 @@ const Layout = ({ children }) => {
           <div className={styles.shooting_star}></div>
           <div className={styles.shooting_star} ></div>
           <div className={styles.terra}></div>
-          <section className="solar-system">
           <ul><li><p className={styles.sunshine}></p></li></ul>
-          </section>
           <Tabsbar />
           <main className={styles.content}>{children}</main>
         </div>

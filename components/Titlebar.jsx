@@ -17,7 +17,7 @@ const Titlebar = () => {
         <p>Terminal</p>
         <p>Ajuda</p>
       </div>
-      <p className={styles.title}><GoRocket /> Carlos Augusto Diniz FIlho - Visual Studio Code <DiVisualstudio /></p>
+      <p className={styles.title}><GoRocket /> Carlos FIlho - Visual Studio Code <DiVisualstudio /></p>
       <div className={styles.windowButtons}>
         <span className={styles.minimize}></span>
         <span className={styles.maximize}></span>

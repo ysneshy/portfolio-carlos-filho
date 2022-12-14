@@ -70,6 +70,18 @@
   left: 430px;
 }
 
+.sunshine:hover {
+  color: rgb(255, 202, 40);
+  border: 2px solid rgb(191, 64, 64);
+  background: rgb(255, 87, 34);
+  box-shadow: 0 0 30px 5px rgb(191, 64, 64);
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition: color 1s, background 2s;
+
+}
+
 .sunshine {
   width: 90px;
   height: 90px;
@@ -80,6 +92,21 @@
   display: block;
   top: 42px;
   left: 65px;
+  background-size: cover;
+  box-shadow:  0px 0px 20px rgb(230, 255, 1);
+  /*sol fica no meio | top: 42px;
+  left: 65px;
+  top: 192px;
+  left: 430px;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow:  0px 0px 20px rgb(230, 255, 1); */
 }
 
 /*earth*/
@@ -92,7 +119,6 @@
   height: 120px;
   border-radius: 50%;
   background-image: url(https://ithoughthecamewithyou.com/image.axd?picture=Animation-of-a-year-of-Global-Cloud-Cover-2.png); 
-  /*background: transparent; */
   background-size: cover;
   box-shadow: -25px -25px 25px black inset, 10px 10px 15px white inset, 0px 0px 20px #3a96ff;
   animation: animateEarth 80s linear infinite;
