@@ -3,7 +3,7 @@
   --main-bg: #0D1117;
   --bg-text: rgba(56, 58, 61, 0.35);
   --text-color: #efefef;
-  --accent-color: RGB(55, 27, 69);
+  --accent-color: #7111F5;
   --titlebar-bg: #111111;
   --sidebar-bg: #0D1117;
   --sidebar-hover-bg: #111111;
@@ -21,7 +21,7 @@
   --bottombar-hover-bg: #4f4f52;
   --scrollbar-track-bg: #0D1117;
   --scrollbar-thumb-bg: #333536;
-  --article-bg: #111111;
+  --article-bg: #031d33;
 }
 
 /* Dracula */

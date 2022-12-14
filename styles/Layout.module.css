@@ -40,6 +40,48 @@
   }
 }
 
+/*sistema sollar  */
+.solar-system {
+  margin-top: 12%;
+  margin-left: 16%;
+  position: absolute;
+  width: 1000px;
+}
+
+@keyframes translation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sun {
+  width: 35px;
+  height: 35px;
+  background-image: radial-gradient(rgb(230, 255, 1), rgb(255, 166, 0), rgb(128, 105, 0));
+  filter: blur(5px);
+  border-radius: 50px;
+  position: absolute;
+  display: block;
+  top: 192px;
+  left: 430px;
+}
+
+.sunshine {
+  width: 90px;
+  height: 90px;
+  background-image: radial-gradient(rgb(230, 255, 1), rgb(255, 166, 0), rgb(128, 105, 0));
+  filter: blur(50px);
+  border-radius: 50px;
+  position: absolute;
+  display: block;
+  top: 42px;
+  left: 65px;
+}
+
 /*earth*/
 .terra {
   position: absolute;
