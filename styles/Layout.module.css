@@ -61,39 +61,25 @@
 .sun {
   width: 35px;
   height: 35px;
-  background-image: radial-gradient(rgb(230, 255, 1), rgb(255, 166, 0), rgb(128, 105, 0));
+  background-image: radial-gradient(rgb(226, 9, 9), rgb(255, 166, 0), rgb(128, 105, 0));
   filter: blur(5px);
   border-radius: 50px;
   position: absolute;
   display: block;
-  top: 192px;
-  left: 430px;
-}
-
-.sunshine:hover {
-  color: rgb(255, 202, 40);
-  border: 2px solid rgb(191, 64, 64);
-  background: rgb(255, 87, 34);
-  box-shadow: 0 0 30px 5px rgb(191, 64, 64);
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-  transition: color 1s, background 2s;
-
+  top: 106px;
+  left: 128px;
 }
 
 .sunshine {
   width: 90px;
   height: 90px;
   background-image: radial-gradient(rgb(230, 255, 1), rgb(255, 166, 0), rgb(128, 105, 0));
-  filter: blur(50px);
+  filter: blur(35px);
   border-radius: 50px;
   position: absolute;
   display: block;
   top: 42px;
   left: 65px;
-  background-size: cover;
-  box-shadow:  0px 0px 20px rgb(230, 255, 1);
   /*sol fica no meio | top: 42px;
   left: 65px;
   top: 192px;
@@ -109,14 +95,109 @@
   box-shadow:  0px 0px 20px rgb(230, 255, 1); */
 }
 
+/*teste7 */
+
+.pulse {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #008000;
+  border-radius: 50%;
+}
+
+.pulse span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #008000;
+  border-radius: 50%;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  animation: animate 2.5s linear infinite;
+  animation-delay: calc(-0.5s * var(--i));
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  90% {
+    transform: scale(3);
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.rocket {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  animation: rocket 0.1s ease infinite;
+} 
+
+@keyframes rocket {
+  0%, 100% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(1px);
+  }
+}
+
+
+.rocket::before {
+  content: '';
+  position: absolute;
+  bottom: -233px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 250px;
+  background: linear-gradient(#90EE90, transparent);
+}
+
+.rocket::after {
+  content: '';
+  position: absolute;
+  bottom: -233px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 250px;
+  background: linear-gradient(#90EE90, transparent);
+  animation: fogo 0.1s ease infinite;
+}
+
+@keyframes fogo {
+  0%, 100% {
+    filter: blur(1px);
+  }
+  25%, 75% {
+    filter: blur(2px);
+  }
+  50% {
+    filter: blur(3px);
+  }
+}
+
+.rocket img {
+  width: 75px;
+  transform: rotate(-45deg);
+  filter: invert(100%);
+}
+
 /*earth*/
 .terra {
   position: absolute;
   top: 22%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   background-image: url(https://ithoughthecamewithyou.com/image.axd?picture=Animation-of-a-year-of-Global-Cloud-Cover-2.png); 
   background-size: cover;
