@@ -67,7 +67,7 @@
   position: absolute;
   display: block;
   top: 106px;
-  left: 128px;
+  left: 132px;
 }
 
 .sunshine {
@@ -1223,4 +1223,19 @@
     -webkit-transform: rotate(405deg);
     transform: rotate(405deg);
   }
+}
+
+/* Phone */
+@media screen and (max-width: 600px) {
+.sun {
+  width: 35px;
+  height: 35px;
+  background-image: radial-gradient(rgb(226, 9, 9), rgb(255, 166, 0), rgb(128, 105, 0));
+  filter: blur(5px);
+  border-radius: 50px;
+  position: absolute;
+  display: block;
+  top: 106px;
+  left: 132px;
+}
 }
