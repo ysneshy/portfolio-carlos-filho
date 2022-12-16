@@ -43,7 +43,7 @@
   position:relative;
 }
 
-.illustration {
+/*.illustration {
   height: 17vh;
   display: flex;
   gap: 2rem;
@@ -69,7 +69,7 @@
 100% {
     transform: translateY(0)
   }
-}
+}  */
 
 .flex {
   display: flex;
