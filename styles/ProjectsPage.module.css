@@ -7,11 +7,11 @@
 }
 
 .container h3 {
-  position:absolute;
+  position:relative;
 }
 
-.h3 {
-  position:absolute;
+.container span {
+  position:relative;
 }
 
 /* Phone */

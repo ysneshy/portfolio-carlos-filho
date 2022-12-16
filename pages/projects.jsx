@@ -6,7 +6,7 @@ const ProjectsPage = ({ projects }) => {
   return (
     <>
       <div className={styles.cointainer}>
-        <h3>Alguns projetos Realizado e melhorado</h3>
+        <h3><span>Alguns projetos Realizado e melhorado</span></h3>
       </div>
       <div className={styles.container}>
         {projects.map((project) => (
