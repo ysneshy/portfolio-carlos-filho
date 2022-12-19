@@ -10,7 +10,7 @@
 }
 
 .carousel {
-  width: 295px;
+  width: 495px;
   cursor: pointer;
   transition: width 2s, height 4s;
   position: relative;
@@ -18,7 +18,7 @@
 
 .carousel:hover {
   position: relative;
-  width: 640px;
+  width: 840px;
 
 }
 
@@ -151,6 +151,19 @@
   .illustration {
     height: 900px;
     width: 700px;
+
+  }
+
+  .carousel {
+    width: 290px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+    position: relative;
+  }
+
+  .carousel:hover {
+    position: relative;
+    width: 340px;
 
   }
 }

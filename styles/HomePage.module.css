@@ -32,7 +32,7 @@
   background-image: url("https://media0.giphy.com/media/YqhIK6Gbor6CLeloBq/200w.gif?cid=6c09b95269ulypnl10lyzzfv53va8nfc7oys3nhvxdvhtz30&rid=200w.gif&ct=g");
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  
+
 }
 
 /*transicao de cor */
@@ -47,6 +47,8 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+/* cursor  */
 
 /* efeito astronalta roxo */
 .name span {
