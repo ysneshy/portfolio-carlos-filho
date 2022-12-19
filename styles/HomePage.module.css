@@ -29,20 +29,11 @@
   font-size: 3.2rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  background-image: url("https://media0.giphy.com/media/YqhIK6Gbor6CLeloBq/200w.gif?cid=6c09b95269ulypnl10lyzzfv53va8nfc7oys3nhvxdvhtz30&rid=200w.gif&ct=g");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
 }
-
-.name {
-  text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-  -webkit-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-  -moz-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-  -ms-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-
-  -o-text-shadow: 0px 0px 10px rgba(113, 17, 245);
-}
-
 
 /*transicao de cor */
 .name:hover {
@@ -52,7 +43,9 @@
   -moz-transition: all 1s ease-out;
   transition: all 1s ease-out;
   transition: color 2s;
-  text-shadow: 1px 1px 1px #919191,
+  background-image: url("https://i.pinimg.com/originals/8a/7c/2c/8a7c2cece42cd158a110d9bb26ca938a.gif");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 /* efeito astronalta roxo */
