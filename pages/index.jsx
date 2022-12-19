@@ -26,7 +26,6 @@ export default function HomePage() {
           <br></br>
           <br></br>
           <br></br>
-          
           <div className={styles.foreground}>
             <div className={styles.content}>
                 <h6 className={styles.name}>

@@ -6,19 +6,19 @@
   height: 75vh;
   flex-direction: column;
   position: relative;
-  
+
 }
 
 .carousel {
   width: 295px;
   cursor: pointer;
   transition: width 2s, height 4s;
-  position:relative;
+  position: relative;
 }
 
 .carousel:hover {
-  position:relative;
-width: 340px;
+  position: relative;
+  width: 640px;
 
 }
 
@@ -36,7 +36,7 @@ width: 340px;
   color: var(--accent-color);
   justify-content: space-between;
   align-items: center;
-  position:relative;
+  position: relative;
 }
 
 .name {
@@ -44,7 +44,7 @@ width: 340px;
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  position:relative;
+  position: relative;
 }
 
 .bio {
@@ -54,7 +54,7 @@ width: 340px;
   font-weight: 300;
   margin-bottom: 3rem;
   position: relative;
-  position:relative;
+  position: relative;
 }
 
 .bio::before,
@@ -65,7 +65,7 @@ width: 340px;
   right: 0;
   bottom: 0;
   left: 0;
-  position:relative;
+  position: relative;
 }
 
 .bio::before {
@@ -151,7 +151,7 @@ width: 340px;
   .illustration {
     height: 900px;
     width: 700px;
-    
+
   }
 }
 
@@ -159,7 +159,7 @@ width: 340px;
 @media screen and (max-width: 1100px) {
   .background {
     display: none;
-    
+
   }
 
   .container {
@@ -188,6 +188,19 @@ width: 340px;
     height: 700px;
     width: 600px;
   }
+
+  .carousel {
+    width: 290px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+    position: relative;
+  }
+
+  .carousel:hover {
+    position: relative;
+    width: 340px;
+
+  }
 }
 
 /* iPad */
@@ -212,6 +225,19 @@ width: 340px;
   }
 }
 
+.carousel {
+  width: 290px;
+  cursor: pointer;
+  transition: width 2s, height 4s;
+  position: relative;
+}
+
+.carousel:hover {
+  position: relative;
+  width: 340px;
+
+}
+
 @media screen and (orientation: landscape) and (max-width: 1050px) {
   .container {
     display: flex;
@@ -220,6 +246,19 @@ width: 340px;
   .illustration {
     display: none;
   }
+}
+
+.carousel {
+  width: 290px;
+  cursor: pointer;
+  transition: width 2s, height 4s;
+  position: relative;
+}
+
+.carousel:hover {
+  position: relative;
+  width: 340px;
+
 }
 
 /* Phone */
@@ -245,6 +284,19 @@ width: 340px;
 
   .outlined {
     font-size: 1rem;
+
+  }
+
+  .carousel {
+    width: 290px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+    position: relative;
+  }
+
+  .carousel:hover {
+    position: relative;
+    width: 340px;
 
   }
 
@@ -293,4 +345,3 @@ width: 340px;
   }
 
 }
-
