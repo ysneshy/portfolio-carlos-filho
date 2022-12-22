@@ -1,11 +1,12 @@
 /* 4K Screens */
 .container {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
-  width: 70vw;
+
 }
 .container h6 {
   font-size: 0.5rem;
