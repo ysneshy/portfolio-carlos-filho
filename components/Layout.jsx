@@ -23,7 +23,6 @@ const Layout = ({ children }) => {
           <ul><li><p className={styles.sunshine}></p></li></ul>
           <ul><li className={styles.sun}></li></ul>
           <li className={styles.sun2}></li>
-          
           <Tabsbar />
           <main className={styles.content}>{children}</main>
         </div>
