@@ -46,12 +46,41 @@
   width: 35px;
   height: 35px;
   background-image: radial-gradient(rgb(226, 9, 9), rgb(255, 166, 0), rgb(196, 69, 29));
-  filter: blur(5px);
+  filter: blur(4px);
   border-radius: 50px;
   position: absolute;
   display: block;
   top: 130px;
   left: 322px;
+}
+
+.sun2 {
+  width: 35px;
+  height: 35px;
+  background-image: radial-gradient(rgb(226, 9, 9), rgb(196, 69, 29));
+  filter: blur(4px);
+  border-radius: 50px;
+  position: absolute;
+  display: block;
+  top: 130px;
+  left: 322px;
+  animation: sun2 3.5s linear infinite;
+  animation-delay: calc(-4.5s * var(--i));
+}
+
+@keyframes sun2 {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  90% {
+    transform: scale(3);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0.1;
+  }
 }
 
 .sunshine {
@@ -64,14 +93,14 @@
   display: block;
   top: 62px;
   left: 65px;
-  animation: animate 2.5s linear infinite;
+  animation: animate 3.5s linear infinite;
   animation-delay: calc(-0.5s * var(--i));
 }
 
 @keyframes animate {
   0% {
     transform: scale(1);
-    opacity: 0.5;
+    opacity: 0.8;
   }
   90% {
     transform: scale(3);
@@ -1129,6 +1158,25 @@
     left: 305px;
   
   }
+
+  .sunshine {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    display: block;
+    top: 128px;
+    left: 305px;
+  }
+
+  .sun2 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    display: block;
+    top: 128px;
+    left: 305px;
+  }
+
   .terra {
     position: absolute;
     top: 32%;
@@ -1140,6 +1188,24 @@
 /* iPad */
 @media screen and (max-width: 900px) {
   .sun {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  display: block;
+  top: 128px;
+  left: 289px;
+}
+
+.sunshine {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  display: block;
+  top: 64px;
+  left: 79px;
+}
+
+.sun2 {
   width: 35px;
   height: 35px;
   position: absolute;
@@ -1165,6 +1231,25 @@
   top: 124px;
   left: 132px;
 }
+
+.sunshine {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  display: block;
+  top: 64px;
+  left: 62px;
+}
+
+.sun2 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  display: block;
+  top: 124px;
+  left: 132px;
+}
+
 
 .terra {
   position: absolute;
