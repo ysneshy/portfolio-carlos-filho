@@ -1159,14 +1159,6 @@
   
   }
 
-  .sunshine {
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    display: block;
-    top: 128px;
-    left: 305px;
-  }
 
   .sun2 {
     width: 35px;
@@ -1196,15 +1188,6 @@
   left: 289px;
 }
 
-.sunshine {
-  width: 90px;
-  height: 90px;
-  position: absolute;
-  display: block;
-  top: 64px;
-  left: 79px;
-}
-
 .sun2 {
   width: 35px;
   height: 35px;
@@ -1230,15 +1213,6 @@
   display: block;
   top: 124px;
   left: 132px;
-}
-
-.sunshine {
-  width: 90px;
-  height: 90px;
-  position: absolute;
-  display: block;
-  top: 64px;
-  left: 62px;
 }
 
 .sun2 {
