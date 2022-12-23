@@ -12,7 +12,7 @@ export default function HomePage() {
   React.useEffect(() => {
     setTimeout(() => {
       setLoading(true);
-    }, 900000);
+    }, 3000);
   }, []);
 
   return (
