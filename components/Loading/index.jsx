@@ -4,7 +4,7 @@ export default function Loading() {
   return (
     <main className={styles.loaderer}>
       <span className={styles.loader}></span>
-      <h6>CARREGANDO...</h6>
+      <h6>&nbsp;CARREGANDO...</h6>
     </main>
   );
 }
