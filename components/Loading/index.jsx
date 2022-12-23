@@ -1,10 +1,9 @@
-import React from 'react';
-import styles from './styles.module.sass';
- export default function Loading() {
-    return(
-        <main className={styles.container}>
-        <span className={styles.loader}></span>
-        <h6>CARREGANDO...</h6>
-        </main>
-    );
- }
+import React from "react";
+import styles from "./styles.module.sass";
+export default function Loading() {
+  return (
+    <div className={styles.loaderw}>
+      <div className={styles.loader}></div>
+    </div>
+  );
+}

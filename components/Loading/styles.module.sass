@@ -1,47 +1,54 @@
-@import '../../styles/_variables.sass'
 /* 4K Screens */
 
-.container
-  display: flex
-  justify-content: center
-  align-items:  center
-  flex-direction: column
-  height: 100%
-  width: 100%
-
-
-  h6
-    font-size: 0.5rem
-    margin-top: 1rem
-  color: rgba(113, 17, 245)
-
-.loader 
-  width: 80px
-  height: 80px
-  border-radius: 50%
-  display: inline-block
-  position: relative
-  background: linear-gradient(0deg, $color-01 33%, $color-02 100%)
-  box-sizing: border-box
-  animation: rotation 1s linear infinite
-
-.loader::after 
-  content: ''
-  box-sizing: border-box
-  position: absolute
-  left: 50%
-  top: 50%
-  transform: translate(-50%, -50%)
-  width: 44px
-  height: 44px
-  border-radius: 50%
-  background: #24292E
-
-
-@keyframes rotation 
-  0% 
+.body 
+	width: 100% 
+	height: 100% 
+  
+.loaderw
+	width: 100% 
+	height: 100vh 
+	background: #232831 
+	position: fixed 
+	top: 0 
+	left: 0 
+	z-index: 999999 
+	display: flex 
+	align-items: center 
+	justify-content: center 
+	.loader {
+    width: 100px 
+	height: 100px 
+	background: linear-gradient(45deg, transparent, transparent 40%, #f48403) 
+	border-radius: 50% 
+	position: relative 
+	animation: loader 1s linear infinite 
+	&: :before {
+      position: absolute 
+	content: "" 
+	top: 3px 
+	right: 3px 
+	left: 3px 
+	bottom: 3px 
+	background: #232831 
+	border-radius: 50% 
+	z-index: 1 
+&:after 
+	position: absolute 
+	content: "" 
+	top: 0px 
+	right: 0px 
+	left: 0px 
+	bottom: 0px 
+	background: linear-gradient(45deg, transparent, transparent 40%, #f48403) 
+	border-radius: 50% 
+	filter: blur(20px) 
+} 
+	} 
+		@keyframes 
+			loader 
+				0% {
     transform: rotate(0deg) 
-  100%  
-    transform: rotate(360deg)
-  
-  
+				filter: hue-rotate(0deg) 
+100% 
+	transform: rotate(360deg) 
+	filter: hue-rotate(360deg) 
