@@ -1,9 +1,10 @@
 import React from "react";
-import styles from "./styles.module.sass";
+import styles from "./styles.module.scss";
 export default function Loading() {
   return (
-    <div className={styles.loaderw}>
-      <div className={styles.loader}></div>
-    </div>
+    <main className={styles.loaderer}>
+      <span className={styles.loader}></span>
+      <h6>CARREGANDO...</h6>
+    </main>
   );
 }

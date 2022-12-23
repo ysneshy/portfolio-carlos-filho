@@ -1,57 +1,68 @@
-/* 4K Screens */
-.container {
-  height: 100%;
+.loaderer {
   width: 100%;
+  height: 100vh;
+  background: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-
+  justify-content: center;
 }
-.container h6 {
-  font-size: 0.5rem;
-  margin-top: 1rem;
+.loaderer .h6 {
+  font-size: 0.5rem margin-top 1rem color #ff0000;
 }
-
-.loader {
-  width: 80px;
-  height: 80px;
+.loaderer .loader {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, transparent, transparent 40%, #f48403);
   border-radius: 50%;
-  display: inline-block;
   position: relative;
-  background: linear-gradient(0deg, #7111F5 33%, #9B8DA2 100%);
-  box-sizing: border-box;
-  -webkit-animation: rotation 1s linear infinite;
-          animation: rotation 1s linear infinite;
+  -webkit-animation: loader 1s linear infinite;
+          animation: loader 1s linear infinite;
 }
-
-.loader::after {
-  content: "";
-  box-sizing: border-box;
+.loaderer .loader::before {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 44px;
-  height: 44px;
+  content: "";
+  top: 3px;
+  right: 3px;
+  left: 3px;
+  bottom: 3px;
+  background: #0D1117;
   border-radius: 50%;
-  background: #24292E;
+  z-index: 1;
+}
+.loaderer .loader:after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: linear-gradient(45deg, transparent, transparent 40%, #f48403);
+  border-radius: 50%;
+  filter: blur(20px);
 }
 
-@-webkit-keyframes rotation {
+@-webkit-keyframes loader {
   0% {
     transform: rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+    filter: hue-rotate(360deg);
   }
 }
 
-@keyframes rotation {
+@keyframes loader {
   0% {
     transform: rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+    filter: hue-rotate(360deg);
   }
 }/*# sourceMappingURL=styles.module.css.map */
