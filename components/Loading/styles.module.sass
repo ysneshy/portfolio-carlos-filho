@@ -1,15 +1,26 @@
+@import '../../styles/_variables.sass'
+/* 4K Screens */
 
-.loaderer
+.panetone
   width: 100%
   height: 100vh
-  background: linear-gradient(180deg, #000000, #000000, #000000)
+  background: #000000
   position: fixed
   top: 0
   left: 0
-  z-index: 999999
+  z-index: relative
   display: flex
   align-items: center
   justify-content: center
+
+  h6 
+    background: linear-gradient(rgba(113, 17, 245), #1c2aec)
+    color: transparent
+    background-clip: text
+    -webkit-background-clip: text
+    -moz-background-clip: text
+    animation: text 5s linear infinite
+
 
   .loader
     width: 100px
@@ -49,3 +60,4 @@
   100%
     transform: rotate(360deg)
     filter: hue-rotate(360deg)
+
