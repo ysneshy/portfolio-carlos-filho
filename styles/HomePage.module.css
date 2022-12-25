@@ -131,7 +131,6 @@
   transition: color 2s;
 }
 
-
 /* botoes gostosos */
 .button {
   background: rgb(155, 141, 162);
@@ -158,13 +157,22 @@
   cursor: pointer;
   border-radius: 0px 100px 0px 100px;
 }
+.button:hover{
+  color: rgb(255, 202, 40);
+    border: 2px solid rgb(191, 64, 64);
+    background: rgb(255, 87, 34);
+    box-shadow: 0 0 30px 5px rgb(191, 64, 64);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    transition: color 1s, background 2s;
+  }
 
-.button:hover,
 .outlined:hover {
 
   color: rgb(255, 202, 40);
   border: 2px solid rgb(191, 64, 64);
-  background: rgb(255, 87, 34);
+  background-image: url("https://media.tenor.com/deHNDV19AgQAAAAC/galaxy.gif");
   box-shadow: 0 0 30px 5px rgb(191, 64, 64);
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
@@ -203,21 +211,25 @@
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  animation: text 5s linear infinite;
+  animation: text 50s linear infinite;
+
 }
 
 @keyframes text {
   0% {
+    transform: rotate(0deg);
     filter: hue-rotate(0deg);
 
   }
 
 
   100% {
+    transform: rotate(360deg);
     filter: hue-rotate(360deg);
   }
 }
 
+/* teste 999 */
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
