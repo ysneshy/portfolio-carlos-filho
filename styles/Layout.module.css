@@ -125,11 +125,37 @@
   border-radius: 50%;
   background-image: url(https://ithoughthecamewithyou.com/image.axd?picture=Animation-of-a-year-of-Global-Cloud-Cover-2.png); 
   background-size: cover;
-  box-shadow: -25px -25px 25px black inset, 10px 10px 15px white inset, 0px 0px 20px #3a96ff;
+  box-shadow: -20px -20px 30px black inset, 8px 8px 10px white inset, 0px 0px 20px #3a96ff;
   animation: animateEarth 80s linear infinite;
 }
 
 @keyframes animateEarth {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 359.8%;
+  }
+}
+
+/* mars */
+
+.mars {
+  position: absolute;
+  top: 30%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-image: url(https://spacetoday.com.br/wp-content/uploads/2020/09/Mars_Express_captures_Nereidum_Mountain_Range_pillars.jpg); 
+  background-size: cover;
+  box-shadow: -8px -9px 18px black inset, 3px 3px 8px white inset, 0px 0px 9px  orangered;
+  animation: MarsRotate 100s linear infinite;
+}
+
+@keyframes MarsRotate {
   0% {
     background-position: 0;
   }
@@ -1162,21 +1188,19 @@
   
   }
 
-
-  .sun2 {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    display: block;
-    top: 128px;
-    left: 305px;
-  }
-
   .terra {
     position: absolute;
-    top: 32%;
+    top: 22%;
     left: 50%;
   }
+}
+
+.mars {
+  position: absolute;
+  top: 26%;
+  left: 79%;
+  width: 75px;
+  height: 75px;
 }
 
 
@@ -1191,20 +1215,20 @@
   left: 289px;
 }
 
-.sun2 {
-  width: 35px;
-  height: 35px;
-  position: absolute;
-  display: block;
-  top: 128px;
-  left: 289px;
-}
-
 .terra {
   position: absolute;
-  top: 32%;
-  left: 50%;
+  top: 22%;
+  left: 54%;
 }
+
+.mars {
+  position: absolute;
+  top: 24%;
+  left: 84%;
+  width: 75px;
+  height: 75px;
+}
+
 }
 
 /* Phone */
@@ -1218,18 +1242,17 @@
   left: 132px;
 }
 
-.sun2 {
-  width: 35px;
-  height: 35px;
+.mars {
   position: absolute;
-  display: block;
-  top: 124px;
-  left: 132px;
+  top: 36%;
+  left: 84%;
+  width: 75px;
+  height: 75px;
 }
 
 .terra {
   position: absolute;
-  top: 22%;
+  top: 20%;
   left: 55%;
 }
 }

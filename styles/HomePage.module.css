@@ -146,6 +146,8 @@
   -moz-transition: all 01s ease-out;
   transition: all 01s ease-out;
   transition: color 1s, background 2s;
+  position: relative;
+
 }
 
 .outlined {
@@ -156,6 +158,7 @@
   background: transparent;
   cursor: pointer;
   border-radius: 0px 100px 0px 100px;
+  position: relative;
 }
 .button:hover{
   color: rgb(255, 202, 40);
@@ -178,6 +181,7 @@
   -moz-transition: all 1s ease-out;
   transition: all 1s ease-out;
   transition: color 1s, background 2s;
+  position: relative;
 
 }
 
