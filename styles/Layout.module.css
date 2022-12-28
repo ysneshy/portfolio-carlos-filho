@@ -149,7 +149,7 @@
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  background-image: url(https://spacetoday.com.br/wp-content/uploads/2020/09/Mars_Express_captures_Nereidum_Mountain_Range_pillars.jpg); 
+  background-image: url(https://p0.pikist.com/photos/782/715/map-mars-planet-red-ice-desert-world.jpg); 
   background-size: cover;
   box-shadow: -8px -9px 18px black inset, 3px 3px 8px white inset, 0px 0px 9px  orangered;
   animation: MarsRotate 100s linear infinite;
@@ -1233,6 +1233,7 @@
 
 /* Phone */
 @media screen and (max-width: 600px) {
+
 .sun {
   width: 35px;
   height: 35px;
@@ -1253,6 +1254,6 @@
 .terra {
   position: absolute;
   top: 20%;
-  left: 55%;
+  left: 64%;
 }
 }
