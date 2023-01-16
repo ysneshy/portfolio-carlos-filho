@@ -35,7 +35,7 @@
 /*transicao de cor */
 .code a:hover {
   cursor: pointer;
-  color: rgba(113, 17, 245);
+  color: #ff0000;
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   transition: all 1s ease-out;
